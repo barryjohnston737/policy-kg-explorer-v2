@@ -1,5 +1,7 @@
 # Policy Knowledge Graph Explorer — v2 (191-document corpus)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21459286.svg)](https://doi.org/10.5281/zenodo.21459286)
+
 An interactive knowledge-graph tool that maps the semantic relationships across a corpus of
 **191 Irish, EU, and global environmental-governance documents** — national acts and plans,
 EU directives and regulations, international conventions, and a condensed local-authority
@@ -34,8 +36,21 @@ automatically on every build.
 > separately on Zenodo (DOI below).
 
 **Developed by B. Johnston & J. Moran — Atlantic Technological University.**
-Licensed under the [MIT License](LICENSE). If you use this work, please cite it via
-[`CITATION.cff`](CITATION.cff).
+Licensed under the [MIT License](LICENSE). 
+
+## Citation
+
+**Software:**
+Johnston, B. & Moran, J. (2026). *Policy Knowledge Graph Explorer: a multi-model semantic
+knowledge graph for exploring environmental governance corpora* (v2.0.0). Zenodo.
+https://doi.org/10.5281/zenodo.21459286
+
+**Policy brief:**
+Johnston, B. & Moran, J. (2026). *Mapping the Policy Web: a semantic knowledge-graph tool for
+navigating Ireland's environmental governance*. Zenodo.
+https://doi.org/10.5281/zenodo.YYYYYYY
+
+Machine-readable metadata is in [`CITATION.cff`](CITATION.cff).
 
 ---
 

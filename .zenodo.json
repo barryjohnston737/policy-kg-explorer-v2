@@ -17,5 +17,13 @@
     "information visualisation",
     "natural language processing"
   ],
-  "version": "2.0.2"
+  "version": "2.0.2",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.21459386",
+      "relation": "isSupplementedBy",
+      "resource_type": "publication-report",
+      "scheme": "doi"
+    }
+  ]
 }

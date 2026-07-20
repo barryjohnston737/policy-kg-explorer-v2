@@ -47,9 +47,18 @@ any document as a fixed reference point and see everything else ranked by its cl
 it.
 
 The central, immediate observation is visual: viewed as a whole, the corpus is a dense
-tangle of connections. **This is the finding, not a defect.** Environmental governance in
-Ireland is deeply interconnected; no document stands alone. The value of the tool is that it
-lets a user move from that overwhelming whole to specific, answerable questions.
+tangle of connections (Figure 1). **This is the finding, not a defect.** Environmental
+governance in Ireland is deeply interconnected; no document stands alone. The value of the
+tool is that it lets a user move from that overwhelming whole to specific, answerable
+questions.
+
+![The policy web](images/fig1_policy_web.png)
+
+*Figure 1. The policy web — all 191 documents with every connection at or above the weak
+threshold. Node colour is policy domain, node size reflects document length, and ring colour
+marks the strength of each document's closest link. The density is the point: this is what a
+corpus with 2,880 above-threshold relationships looks like before any question is asked of
+it.*
 
 Some concrete results from the current corpus illustrate what it surfaces:
 
@@ -91,6 +100,14 @@ the landscape legible at a glance. Three practical uses:
    integration gap; clusters of near-identical documents may signal duplication worth
    rationalising.
 
+![Reference-datum view](images/fig2_datum_view.png)
+
+*Figure 2. The same corpus with one document — the EU Nature Restoration Law — pinned as the
+reference point. Every other document is placed by its closeness to that one, with the dashed
+rings marking the weak, moderate and strong thresholds. Six documents fall in the strong band,
+27 moderate and 41 weak; the greyed remainder are unrelated to it. This is the tool answering
+a specific question rather than displaying everything at once.*
+
 The single most important caveat is this: **the score starts the conversation; it does not
 end it.** A strong connection means two documents *talk about the same things in similar
 language*. It does **not** mean they agree, that they are mutually consistent, or that they
@@ -109,7 +126,15 @@ between any two documents is the average of the three models' agreement on how c
 are — using several models guards against the quirks of any one. Connections are then sorted
 into **weak, moderate and strong** bands defined statistically from the corpus itself, so
 "strong" means *unusually similar for this body of documents* rather than an arbitrary
-cut-off. All processing runs locally; no document data leaves the machine.
+cut-off (Figure 3). All processing runs locally; no document data leaves the machine.
+
+![Similarity distribution and strength bands](images/fig3_similarity_distribution.png)
+
+*Figure 3. Every one of the 18,145 possible document pairings, scored. Most pairs are
+unrelated — the bulk of the distribution sits well below the thresholds — and only 423 pairs
+(2.3%) reach the strong band. Because the cut-offs are drawn from this distribution rather
+than set in advance, they describe what is unusual for this corpus specifically, and would
+shift if the corpus changed.*
 
 ### Status and limitations
 

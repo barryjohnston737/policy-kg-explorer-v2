@@ -6,14 +6,14 @@ message: >-
   If you use this software or data, please cite it using the metadata below.
 type: software
 authors:
-  - given-names: B.
+  - given-names: Barry
     family-names: Johnston
     affiliation: Atlantic Technological University
-    # orcid: 'https://orcid.org/0000-0000-0000-0000'   # TODO: add ORCID
-  - given-names: J.
+    ORCID: 'https://orcid.org/0000-0002-5287-2287'
+  - given-names: James
     family-names: Moran
     affiliation: Atlantic Technological University
-    # orcid: 'https://orcid.org/0000-0000-0000-0000'   # TODO: add ORCID
+    ORCID: 'https://orcid.org/0000-0002-2845-4325'
 abstract: >-
   An interactive knowledge-graph tool that maps the semantic relationships
   across a corpus of 191 Irish, EU and international environmental-governance
@@ -36,4 +36,4 @@ keywords:
 license: MIT
 version: 2.0.0
 date-released: '2026-07-17'
-repository-code: 'https://github.com/YOUR_USERNAME/policy-kg-explorer-v2'
+repository-code: 'https://github.com/barryjohnston737/policy-kg-explorer-v2'

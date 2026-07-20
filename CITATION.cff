@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+title: >-
+  Policy Knowledge Graph Explorer: a multi-model semantic knowledge graph
+  for exploring environmental governance corpora (v2, 191-document corpus)
+message: >-
+  If you use this software or data, please cite it using the metadata below.
+type: software
+authors:
+  - given-names: B.
+    family-names: Johnston
+    affiliation: Atlantic Technological University
+    # orcid: 'https://orcid.org/0000-0000-0000-0000'   # TODO: add ORCID
+  - given-names: J.
+    family-names: Moran
+    affiliation: Atlantic Technological University
+    # orcid: 'https://orcid.org/0000-0000-0000-0000'   # TODO: add ORCID
+abstract: >-
+  An interactive knowledge-graph tool that maps the semantic relationships
+  across a corpus of 191 Irish, EU and international environmental-governance
+  documents. Documents are segmented into ~350-word passages, embedded with a
+  three-model ensemble (BGE-M3, Qwen3-Embedding-0.6B and MiniLM) combined by
+  similarity-matrix averaging, and assembled into a document-level similarity
+  graph. Connection strength is calibrated non-parametrically against the
+  corpus's own background distribution. The output is a single standalone,
+  client-side application with linked 2D network, 3D orbit and heatmap views
+  and a reference-datum mode. Status: research / decision-support tool;
+  similarity measures thematic overlap, not agreement or legal consistency.
+keywords:
+  - text embeddings
+  - knowledge graphs
+  - environmental policy
+  - document similarity
+  - policy coherence
+  - information visualisation
+  - natural language processing
+license: MIT
+version: 2.0.0
+date-released: '2026-07-17'
+repository-code: 'https://github.com/YOUR_USERNAME/policy-kg-explorer-v2'

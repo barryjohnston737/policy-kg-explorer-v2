@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Policy Brief — Mapping the Policy Web</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #EFF1F5; --panel: #FFFFFF; --card: #F5F7FA; --border: #D8DCE4;
+    --ink: #1A2A38; --ink2: #3A4A5A; --muted: #6A7A8A;
+    --accent: #0E8A8A; --accent-dim: #0E8A8A18;
+    --strong: #12B0A0; --moderate: #D48F00; --weak: #7A9EC0;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'DM Sans', system-ui, sans-serif; background: var(--bg); color: var(--ink2); line-height: 1.62; font-size: 15px; }
+  .page { max-width: 820px; margin: 0 auto; background: var(--panel); padding: 56px 64px 64px; }
+  @media print { body { background: #fff; } .page { box-shadow: none; max-width: none; padding: 0; } .no-print { display: none; } @page { margin: 18mm 20mm; } }
+
+  .masthead { border-bottom: 3px solid var(--accent); padding-bottom: 20px; margin-bottom: 28px; }
+  .kicker { font-family: 'JetBrains Mono', monospace; font-size: 11px; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); margin-bottom: 12px; }
+  h1 { font-size: 31px; font-weight: 700; color: var(--ink); letter-spacing: -0.02em; line-height: 1.15; margin-bottom: 8px; }
+  .subtitle { font-size: 17px; color: var(--ink2); font-weight: 500; margin-bottom: 16px; }
+  .byline { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px; font-size: 13px; color: var(--muted); font-family: 'JetBrains Mono', monospace; }
+
+  h2 { font-size: 13px; font-weight: 600; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin: 30px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
+  h2:first-of-type { margin-top: 8px; }
+  p { margin-bottom: 13px; }
+  strong { color: var(--ink); font-weight: 600; }
+  em { color: var(--ink2); }
+
+  .lead { font-size: 16px; color: var(--ink); }
+
+  ol.numbered { margin: 6px 0 14px 0; padding-left: 0; counter-reset: item; list-style: none; }
+  ol.numbered > li { position: relative; padding-left: 40px; margin-bottom: 12px; counter-increment: item; }
+  ol.numbered > li::before { content: counter(item); position: absolute; left: 0; top: 1px; width: 26px; height: 26px; background: var(--accent-dim); color: var(--accent); border-radius: 50%; font-family: 'JetBrains Mono', monospace; font-weight: 600; font-size: 13px; display: flex; align-items: center; justify-content: center; }
+
+  ul.findings { list-style: none; margin: 6px 0 14px; padding: 0; }
+  ul.findings > li { position: relative; padding-left: 22px; margin-bottom: 11px; }
+  ul.findings > li::before { content: "▸"; position: absolute; left: 0; top: 0; color: var(--accent); font-size: 12px; }
+
+  .callout { background: var(--card); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 16px 20px; margin: 18px 0; font-size: 15px; }
+  .callout .tag { font-family: 'JetBrains Mono', monospace; font-size: 10px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 6px; }
+
+  .bands { display: flex; gap: 10px; margin: 16px 0; flex-wrap: wrap; }
+  .band { flex: 1; min-width: 150px; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
+  .band .dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; margin-right: 6px; vertical-align: middle; }
+  .band .name { font-weight: 600; color: var(--ink); font-size: 13px; }
+  .band .cut { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--muted); margin-top: 3px; }
+
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 14px; }
+  th { text-align: left; font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); padding: 8px 10px; border-bottom: 2px solid var(--border); }
+  td { padding: 7px 10px; border-bottom: 1px solid var(--border); }
+  td.num { font-family: 'JetBrains Mono', monospace; text-align: right; color: var(--ink); }
+  tr:last-child td { border-bottom: none; }
+  .domdot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; margin-right: 7px; }
+
+  .footer { margin-top: 34px; padding-top: 16px; border-top: 1px solid var(--border); font-size: 12.5px; color: var(--muted); font-style: italic; }
+  .print-hint { text-align: center; font-size: 12px; color: var(--muted); padding: 14px; font-family: 'JetBrains Mono', monospace; }
+</style>
+</head>
+<body>
+<div class="print-hint no-print">This brief is print-ready — use your browser's Print → Save as PDF (A4, default margins).</div>
+<div class="page">
+
+  <div class="masthead">
+    <div class="kicker">Policy Brief · July 2026</div>
+    <h1>Mapping the Policy Web</h1>
+    <div class="subtitle">A semantic knowledge-graph tool for navigating Ireland's environmental governance</div>
+    <div class="byline">
+      <span>B. Johnston &amp; J. Moran · Atlantic Technological University</span>
+      <span>Research / decision-support tool</span>
+    </div>
+  </div>
+
+  <h2>The problem</h2>
+  <p class="lead">Ireland's environmental governance is delivered not through a single strategy but through a large and growing library of separate documents: national acts and plans, EU directives and regulations transposed into Irish law, sectoral strategies, and international conventions. A single objective — restoring water quality, or meeting a 2030 emissions target — is typically addressed across a dozen or more instruments at once, authored by different departments and agencies at different times.</p>
+  <p>This fragmentation makes a basic but important question surprisingly hard to answer: <strong>how do these documents relate to one another?</strong> Which cover the same ground? Which act as the connective tissue between policy areas? Where does a newly published document sit relative to everything already in force? Answering this by hand means reading and cross-referencing hundreds of documents — slow, inconsistent, and rarely done comprehensively.</p>
+
+  <h2>What we built</h2>
+  <p>We built an interactive tool that reads a corpus of <strong>191 Irish, EU and international environmental-governance documents</strong>, converts every passage into a numerical representation of its meaning using modern language models, and measures how closely each pair of documents overlaps in that meaning-space. The result is a live, navigable map of the policy landscape — a "knowledge graph" — that a non-specialist can explore in a web browser.</p>
+
+  <table>
+    <thead><tr><th>Policy domain</th><th style="text-align:right">Documents</th></tr></thead>
+    <tbody>
+      <tr><td><span class="domdot" style="background:#2F6FAE"></span>Water</td><td class="num">53</td></tr>
+      <tr><td><span class="domdot" style="background:#5A6B7A"></span>Cross-cutting</td><td class="num">52</td></tr>
+      <tr><td><span class="domdot" style="background:#0E8A8A"></span>Climate</td><td class="num">40</td></tr>
+      <tr><td><span class="domdot" style="background:#2E7D4F"></span>Biodiversity</td><td class="num">30</td></tr>
+      <tr><td><span class="domdot" style="background:#B26F1D"></span>Agriculture</td><td class="num">14</td></tr>
+      <tr><td><span class="domdot" style="background:#3E7D2C"></span>Forestry</td><td class="num">2</td></tr>
+      <tr><td style="font-weight:600;color:var(--ink)">Total</td><td class="num" style="font-weight:600">191</td></tr>
+    </tbody>
+  </table>
+
+  <p>The corpus includes the most recent material — the 2026 <em>A Living Land</em> Land Use Review, the 2024 State of the Environment Report, the EU Nature Restoration Law — alongside foundational legislation and the international conventions Ireland is party to. The 31 local-authority climate and development plans are condensed into representative composite entries so that near-identical documents do not crowd the picture.</p>
+
+  <h2>What it shows</h2>
+  <p>The tool presents the corpus three ways — a <strong>2D network</strong>, a rotatable <strong>3D view</strong>, and a <strong>heatmap</strong> — all driven by the same similarity data. A user can search for any document, filter by domain, adjust how strong a connection must be to appear, or pin any document as a fixed reference point and see everything else ranked by its closeness to it.</p>
+
+  <div class="callout">
+    <span class="tag">The central observation</span>
+    Viewed as a whole, the corpus is a dense tangle of connections. <strong>This is the finding, not a defect.</strong> Environmental governance in Ireland is deeply interconnected; no document stands alone. The value of the tool is that it lets a user move from that overwhelming whole to specific, answerable questions.
+  </div>
+
+  <p>Some concrete results from the current corpus illustrate what it surfaces:</p>
+  <ul class="findings">
+    <li><strong>The EU Nature Restoration Law is the single strongest "bridge"</strong> in the corpus — the document that most often lies on the connecting path between otherwise separate clusters of climate, biodiversity and water policy. This measurably reflects its cross-sectoral design and flags it as an instrument whose implementation will touch many others.</li>
+    <li><strong>The EPA State of the Environment Report 2024 is the most broadly connected document</strong>, linking to 91 others. As an integrated assessment this is expected — and it makes the report a natural entry point for anyone orienting themselves.</li>
+    <li><strong>Successive and related documents are automatically identified.</strong> Climate Action Plans 2024 and 2025 register as near-identical; EU directives pair with their Irish transpositions; several inadvertent near-duplicates in the source library were surfaced at a similarity of 1.0 — useful for library curation.</li>
+    <li><strong>Isolated documents are as informative as connected ones.</strong> A handful sit at the edge with few strong links — some because they are genuinely niche (which may be appropriate), others because they are candidates for closer integration.</li>
+  </ul>
+
+  <h2>How to use it — and how not to</h2>
+  <p>The tool is a <strong>discovery and triage instrument</strong>. Used well, it rapidly narrows a large document space down to the relationships worth a closer look. Three practical uses:</p>
+  <ol class="numbered">
+    <li><strong>Orientation.</strong> A new official, adviser or researcher can see the whole landscape and its main clusters in minutes, and identify the "hub" documents worth reading first.</li>
+    <li><strong>Situating a new document.</strong> When a new strategy or directive appears, pinning it as the reference point shows immediately which existing instruments it most resembles — and therefore which teams and obligations it is most likely to interact with.</li>
+    <li><strong>Spotting gaps and overlaps.</strong> Documents that connect to nothing may signal an integration gap; clusters of near-identical documents may signal duplication worth rationalising.</li>
+  </ol>
+
+  <div class="callout" style="border-left-color: var(--moderate);">
+    <span class="tag" style="color: var(--moderate);">The one essential caveat</span>
+    <strong>The score starts the conversation; it does not end it.</strong> A strong connection means two documents talk about the same things in similar language. It does <strong>not</strong> mean they agree, are mutually consistent, or are legally compatible — the method cannot distinguish reinforcement from duplication from contradiction. The tool is explicitly <em>not</em> a measure of policy coherence, legal alignment, or compliance. It tells you where to look; expert judgement decides what you find.
+  </div>
+
+  <h2>Method, in brief</h2>
+  <p>Each document is divided into passages of roughly 350 words. Three independent, publicly-available language models each convert every passage into a numerical "fingerprint"; a document's fingerprint is the average of its passages. The similarity between two documents is the average of the three models' agreement — using several models guards against the quirks of any one. Connections are sorted into three bands defined statistically from the corpus itself:</p>
+
+  <div class="bands">
+    <div class="band"><div class="name"><span class="dot" style="background:var(--strong)"></span>Strong</div><div class="cut">≥ 0.80 · unusually close</div></div>
+    <div class="band"><div class="name"><span class="dot" style="background:var(--moderate)"></span>Moderate</div><div class="cut">≥ 0.74 · clearly above background</div></div>
+    <div class="band"><div class="name"><span class="dot" style="background:var(--weak)"></span>Weak</div><div class="cut">≥ 0.68 · above average</div></div>
+  </div>
+  <p>So "strong" means <em>unusually similar for this body of documents</em> rather than an arbitrary cut-off. All processing runs locally; no document data leaves the machine.</p>
+
+  <h2>Status and limitations</h2>
+  <p>This is a <strong>research and decision-support prototype</strong>, not an operational or statutory tool. Its limitations are documented transparently: it measures thematic overlap only; its strength bands are specific to this corpus and not comparable across others; four documents in the current build are scanned images whose text was not fully recovered and appear more isolated than they should; and around 49 further documents identified for inclusion could not be automatically retrieved from publisher websites and are queued for a later refresh. None of these affect the tool's core demonstration — that modern language models can make the structure of a large policy library visible and navigable.</p>
+
+  <h2>What this enables next</h2>
+  <p>The underlying document library (300 catalogued documents with sources and metadata) and the processing pipeline are reusable. The same approach could be applied to any policy domain, extended to the full Irish statute book, used to track how the landscape changes as documents are added and withdrawn, or to compare Ireland's framework against another jurisdiction's. The immediate contribution is a working demonstration that the interconnectedness of environmental governance — long asserted, rarely shown — can be made concrete, measurable and explorable.</p>
+
+  <div class="footer">
+    The interactive explorer, technical specification, and full document library are available in the project repository. For access or a demonstration, contact the authors at Atlantic Technological University.
+  </div>
+
+</div>
+</body>
+</html>

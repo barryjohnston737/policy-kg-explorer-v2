@@ -1,0 +1,304 @@
+id,title,jurisdiction,domain,year,include,reason,text_source,source_url
+EU_8EAP,8th Environment Action Programme (Decision 2022/591),EU,governance,2022,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022D0591
+EU_AAQ_DIR,Ambient Air Quality Directive (revised 2024),EU,circular;climate,2024,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202402881
+EU_BATHING_WATER_DIR,Bathing Water Directive,EU,water,2006,yes,,kg-segments,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0007
+EU_BATTERIES_REG,Batteries and Waste Batteries Regulation (2023),EU,,2023,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R1542
+EU_BIODIV_STRATEGY,EU Biodiversity Strategy for 2030 (COM/2020/380),EU,biodiversity,2020,yes,,kg-segments,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52020DC0380
+EU_BIRDS_DIR,Birds Directive (2009/147/EC consolidated),EU,biodiversity,2009,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02009L0147-20190626
+EU_CAP_REG,CAP Strategic Plans Regulation (2021/2115),EU,agriculture,2021,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32021R2115
+EU_CBAM,Carbon Border Adjustment Mechanism (2023/956),EU,climate;circular,2023,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R0956
+EU_CEAP,Circular Economy Action Plan (COM/2020/98),EU,circular,2020,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52020DC0098
+EU_CFP,Common Fisheries Policy (CFP),EU,agriculture;water,2013,yes,,kg-segments,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32013R1380
+EU_CLIMATE_LAW,European Climate Law (Regulation 2021/1119),EU,climate,2021,yes,,kg-segments,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32021R1119
+EU_CSDDD,Corporate Sustainability Due Diligence Directive (2024),EU,,2024,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024L1760
+EU_CSRD,Corporate Sustainability Reporting Directive (2022/2464),EU,,2022,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32022L2464
+EU_DEFORESTATION_REG,EU Deforestation Regulation (2023/1115),EU,biodiversity;agriculture,2023,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R1115
+EU_DRINKING_WATER_DIR,Drinking Water Directive (recast 2020/2184),EU,water,2020,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32020L2184
+EU_ECODESIGN_REG,Ecodesign for Sustainable Products Regulation (2024),EU,,2024,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024R1781
+EU_EED,Energy Efficiency Directive (recast 2023/1791),EU,climate,2023,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L1791
+EU_EFFORT_SHARING,Effort Sharing Regulation (revised 2023/857),EU,climate,2023,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R0857
+EU_EIA_DIR,Environmental Impact Assessment Directive (codified 2011/92/EU),EU,governance;planning,2011,yes,,kg-segments,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02011L0092-20140515
+EU_EMFF,European Maritime & Fisheries Fund Operational Programme 2014-2020,EU,water;agriculture,2014,yes,,kg-segments,https://oceans-and-fisheries.ec.europa.eu/funding/emff_en
+EU_EPBD,Energy Performance of Buildings Directive (recast 2024),EU,,2024,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024L1275
+EU_ETS_DIR,EU Emissions Trading System Directive (revised 2023/959),EU,climate,2023,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L0959
+EU_EU_WFD,EU Water Framework Directive (2000/60/EC),EU,water,2000,yes,,kg-segments,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32000L0060
+EU_FARM_TO_FORK,Farm to Fork Strategy (COM/2020/381),EU,agriculture,2020,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52020DC0381
+EU_FLOODS_DIR,Floods Directive (2007/60/EC),EU,water;climate,2007,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0060
+EU_FORESHORE_ACT_1933_ENVIRONMENTAL_IMPACT,European Union (Foreshore Act 1933) (Environmental Impact Assessment) (Amendment) Regulations 2021,EU,water,2021,yes,,kg-segments,
+EU_FOREST_STRATEGY,New EU Forest Strategy for 2030 (COM/2021/572),EU,biodiversity;climate,2021,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52021DC0572
+EU_GES_CRITERIA,EC decision 2017/848 - criteria / standards for Good Environmental Status for marine waters,EU,water,2017,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017D0848
+EU_GOV_REG,Energy Union Governance Regulation (2018/1999),EU,climate;governance,2018,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32018R1999
+EU_GREEN_DEAL,The European Green Deal (COM/2019/640),EU,climate;governance,2019,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52019DC0640
+EU_GREEN_DEAL_COMMISSION,The European Green Deal European Commission,EU,climate,2019,yes,,kg-segments,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:52019DC0640
+EU_GROUNDWATER_DIR,Groundwater Directive,EU,water,2006,yes,,kg-segments,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006L0118
+EU_HABITATS_DIR,Habitats Directive (92/43/EEC consolidated),EU,biodiversity,1992,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:01992L0043-20130701
+EU_IAS_REG,Invasive Alien Species Regulation (1143/2014),EU,biodiversity,2014,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014R1143
+EU_IED,Industrial Emissions Directive (recast 2024),EU,circular;climate,2024,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202401785
+EU_LIFE_IE,EU LIFE Programme funded projects,EU,biodiversity,2024,yes,,atlas-text,https://cinea.ec.europa.eu/programmes/life_en
+EU_LULUCF_REG,LULUCF Regulation (revised 2023/839),EU,climate;agriculture,2023,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023R0839
+EU_MARINE_STRATEGY_FRAMEWORK_DIRECTIVE_P3,Marine Strategy Framework Directive P3 Programme of Measures,EU,water,2008,no,"duplicate of IE_MARINE_STRATEGY_P3 — same document, was mis-tiered as EU; keep the IE entry",kg-segments,https://assets.gov.ie/103282/32d0ffba-212d-419b-a3ed-a4ddfdf2bc2d.pdf
+EU_METHANE_REG,Methane Emissions Regulation (2024),EU,,2024,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024R1787
+EU_MSFD,Marine Strategy Framework Directive (2008/56/EC),EU,water,2008,yes,,kg-segments,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32008L0056
+EU_MSP_DIR,Maritime Spatial Planning Directive (2014/89/EU),EU,water;planning,2014,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32014L0089
+EU_MSP_REGS,European Union (Framework for Maritime Spatial Planning) Regulations,EU,water;planning,2016,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2016/si/352/made/en/print
+EU_NEC_DIR,National Emission Ceilings Directive (2016/2284),EU,,2016,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32016L2284
+EU_NITRATES_DIR,Nitrates Directive (91/676/EEC consolidated),EU,water;agriculture,1991,yes,,kg-segments,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:01991L0676-20081211
+EU_NRL,Nature Restoration Law (Regulation 2024/1991),EU,biodiversity,2024,yes,,kg-segments,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024R1991
+EU_PACKAGING_REG,Packaging and Packaging Waste Regulation (2024),EU,circular,2024,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202402653
+EU_PORT_RECEPTION_FACILITIES_DELIVERY_WASTE,European Union Port Reception Facilities for the Delivery of Waste From Ships Regulations 2021,EU,water,2021,yes,,kg-segments,
+EU_REACH,REACH Regulation (1907/2006 consolidated),EU,circular,2006,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02006R1907-20221217
+EU_RED_III,Renewable Energy Directive III (2023/2413),EU,climate,2023,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32023L2413
+EU_SEA_DIR,Strategic Environmental Assessment Directive (2001/42/EC),EU,governance;planning,2001,yes,,kg-segments,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32001L0042
+EU_SFDR,Sustainable Finance Disclosure Regulation (2019/2088),EU,,2019,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32019R2088
+EU_SOIL_STRATEGY,EU Soil Strategy for 2030 (COM/2021/699),EU,biodiversity;agriculture,2021,yes,,kg-segments,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52021DC0699
+EU_SUP_DIR,Single-Use Plastics Directive (2019/904),EU,circular;water,2019,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32019L0904
+EU_TAXONOMY,EU Taxonomy Regulation (2020/852),EU,climate;governance,2020,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32020R0852
+EU_URBAN_WW_DIR,Urban Waste Water Treatment Directive (recast 2024),EU,water,2024,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ:L_202402278
+EU_WFD,Water Framework Directive (2000/60/EC consolidated),EU,water,2000,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02000L0060-20141120
+EU_WFD_WASTE,Waste Framework Directive (2008/98/EC consolidated),EU,circular,2008,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:02008L0098-20180705
+EU_ZERO_POLLUTION,Zero Pollution Action Plan (COM/2021/400),EU,circular;water,2021,yes,,atlas-text,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52021DC0400
+GL_AARHUS,"Aarhus Convention on Access to Information, Public Participation and Justice",GL,governance,1998,yes,,atlas-text,https://unece.org/DAM/env/pp/documents/cep43e.pdf
+GL_AICHI_TARGETS_EN,Aichi Targets En,GL,biodiversity,2010,yes,,kg-segments,https://www.cbd.int/sp/targets
+GL_BASEL,Basel Convention (Hazardous Waste),GL,circular,1989,yes,,atlas-text,https://www.basel.int/Portals/4/download.aspx?d=UNEP-CHW-IMPL-CONVTEXT.English.pdf
+GL_BBNJ,Agreement on Marine Biodiversity Beyond National Jurisdiction (BBNJ Treaty),GL,water;biodiversity,2023,no,peripheral scraper document deferred to parked batch,scraper-file,https://treaties.un.org/doc/Treaties/2023/09/20230920%2004-23%20AM/Ch_XXI_10.pdf
+GL_CBD,Convention on Biological Diversity,GL,biodiversity,1992,yes,,kg-segments,https://www.cbd.int/doc/legal/cbd-en.pdf
+GL_CFS_VGGT,Voluntary Guidelines on Land Tenure (CFS/FAO),GL,agriculture,2012,yes,,atlas-text,https://www.fao.org/3/i2801e/i2801e.pdf
+GL_CITES,Convention on International Trade in Endangered Species,GL,biodiversity,1973,yes,,atlas-text,https://cites.org/sites/default/files/eng/disc/CITES-Convention-EN.pdf
+GL_CITES_CONVENTION_EN,CITES Convention En,GL,biodiversity,1973,yes,,kg-segments,https://cites.org/eng/disc/text.php
+GL_CMS,Convention on the Conservation of Migratory Species,GL,biodiversity,1979,yes,,kg-segments,https://www.cms.int/sites/default/files/instrument/CMS-text.en_.PDF
+GL_COP15_DECISIONS,COP15,GL,biodiversity,2022,yes,,atlas-text,https://www.cbd.int/conferences/2021-2022/cop-15/documents
+GL_CURRENT_CONVENTION_TEXT,Current Convention Text E,GL,cross_cutting,1971,yes,,kg-segments,https://www.ramsar.org/documents
+GL_ESPOO,Espoo Convention on Environmental Impact Assessment in a Transboundary Context,GL,governance,1991,yes,,atlas-text,https://unece.org/DAM/env/eia/documents/legaltexts/Espoo_Convention_authentic_ENG.pdf
+GL_GBF,Kunming-Montreal Global Biodiversity Framework,GL,biodiversity,2022,yes,,atlas-text,https://www.cbd.int/doc/decisions/cop-15/cop-15-dec-04-en.pdf
+GL_ICI,Inclusive Conservation Initiative,GL,biodiversity,2020,yes,,kg-segments,
+GL_IPBES_GA,IPBES Global Assessment — Summary for Policymakers,GL,biodiversity,2019,yes,,atlas-text,https://zenodo.org/records/3553579/files/ipbes_global_assessment_report_summary_for_policymakers.pdf
+GL_IPCC_AR6_SPM,IPCC AR6 Synthesis Report — Summary for Policymakers,GL,climate,2023,yes,,atlas-text,https://www.ipcc.ch/report/ar6/syr/downloads/report/IPCC_AR6_SYR_SPM.pdf
+GL_IPCC_SR15,IPCC Special Report on Global Warming of 1.5°C — SPM,GL,climate,2018,yes,,atlas-text,https://www.ipcc.ch/site/assets/uploads/sites/2/2022/06/SPM_version_report_LR.pdf
+GL_ITPGRFA,International Treaty on Plant Genetic Resources,GL,agriculture;biodiversity,2001,yes,,atlas-text,https://www.fao.org/3/i0510e/i0510e.pdf
+GL_KYOTO,Kyoto Protocol to the UNFCCC,GL,climate,1997,yes,,atlas-text,https://unfccc.int/resource/docs/convkp/kpeng.pdf
+GL_MARPOL,MARPOL Convention (Marine Pollution),GL,water,1973,no,MARPOL 1973 text superseded; consolidated text not freely available — excluded per review,scraper-file,https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Prevention-of-Pollution-from-Ships-(MARPOL).aspx
+GL_MARPOL_1973_FINAL_ACT_CONVENTION,MARPOL 1973 Final Act and Convention,GL,water,1973,no,MARPOL 1973 text superseded; consolidated text not freely available — excluded per review,download-needed,https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Prevention-of-Pollution-from-Ships-(MARPOL).aspx
+GL_MINAMATA,Minamata Convention (Mercury),GL,circular,2013,yes,,atlas-text,https://mercuryconvention.org/sites/default/files/documents/Minamata-Convention-booklet-Sep2019-EN.pdf
+GL_NDC_SYNTHESIS,NDC Synthesis Report (Latest),GL,climate,2024,yes,,atlas-text,https://unfccc.int/sites/default/files/resource/cma2023_12.pdf
+GL_OSPAR,OSPAR Convention for the Protection of the Marine Environment of the North-East Atlantic,GL,water,1992,yes,,atlas-text,https://www.ospar.org/site/assets/files/1290/ospar_convention-1.pdf
+GL_PARIS,Paris Agreement,GL,climate,2015,yes,,atlas-text,https://unfccc.int/sites/default/files/english_paris_agreement.pdf
+GL_RAMSAR,Ramsar Convention on Wetlands,GL,biodiversity;water,1971,no,peripheral scraper document deferred to parked batch,scraper-file,https://www.ramsar.org/sites/default/files/documents/library/current_convention_text_e.pdf
+GL_ROTTERDAM,Rotterdam Convention (Chemicals),GL,circular,1998,yes,,atlas-text,https://www.pic.int/Portals/5/download.aspx?d=UNEP-FAO-RC-CONVTEXT-2019.English.pdf
+GL_SDG_2030,Transforming our World: the 2030 Agenda for Sustainable Development,GL,governance,2015,no,duplicate of GL_UN_SUSTAINABLE_DEVELOPMENT_AGENDA_2030 — same document (2030 Agenda); KG entry already has extracted text,scraper-file,https://sustainabledevelopment.un.org/content/documents/21252030%20Agenda%20for%20Sustainable%20Development%20web.pdf
+GL_SEA_PROTOCOL,SEA Protocol to Espoo Convention,GL,governance,2003,yes,,atlas-text,https://unece.org/DAM/env/eia/documents/legaltexts/protocolenglish.pdf
+GL_SENDAI,Sendai Framework for Disaster Risk Reduction 2015-2030,GL,governance;climate,2015,yes,,atlas-text,https://www.preventionweb.net/files/43291_sendaiframeworkfordrren.pdf
+GL_STOCKHOLM,Stockholm Convention on Persistent Organic Pollutants,GL,circular,2001,yes,,atlas-text,http://www.pops.int/TheConvention/Overview/TextoftheConvention/tabid/2232/Default.aspx
+GL_UNCCD,United Nations Convention to Combat Desertification,GL,agriculture,1994,yes,,atlas-text,https://www.unccd.int/sites/default/files/relevant-links/2017-01/UNCCD_Convention_ENG_0.pdf
+GL_UNCLOS,United Nations Convention on the Law of the Sea,GL,water,1982,yes,,atlas-text,https://www.un.org/depts/los/convention_agreements/texts/unclos/unclos_e.pdf
+GL_UNFCCC,United Nations Framework Convention on Climate Change,GL,climate,1992,yes,,atlas-text,https://unfccc.int/resource/docs/convkp/conveng.pdf
+GL_UN_SUSTAINABLE_DEVELOPMENT_AGENDA_2030,Un Sustainable Development Agenda 2030,GL,cross_cutting,2015,yes,,kg-segments,https://sdgs.un.org/2030agenda
+IE_15TH_ORDINARY_MEETING_CONTRACTING_PARTIE,15Th Ordinary Meeting of the Contracting Parties,IE,cross_cutting,,yes,,kg-segments,
+IE_2009_PLANNING_SYSTEM_FLOOD_RISK,2009 Planning System Flood Risk Mgmt,IE,water,2009,yes,,kg-segments,https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/the-planning-system-and-flood-risk-management-guidelines-for-planning-authorities-nov-09/
+IE_AG_CLIMATISE,Ag Climatise: A Roadmap towards Climate Neutrality,IE,agriculture;climate,2020,yes,,kg-segments,https://www.gov.ie/en/publication/07fbe-ag-climatise-a-roadmap-towards-climate-neutrality/
+IE_AIR_QUALITY_REGS,Air Pollution Act Regulations (Various S.I.),IE,circular;climate,2022,yes,,atlas-text,https://www.irishstatutebook.ie/eli/2022/si/739/made/en/print
+IE_AMMONIA_CODE,Code of Good Agricultural Practice for Reducing Ammonia Emissions from Agriculture (DAFM),IE,agriculture;climate,2019,no,duplicate of IE_CODE_GOOD_AGRICULTURAL_PRACTICE_REDUCING — same code; KG entry already has extracted text,atlas-text,https://www.gov.ie/en/department-of-agriculture-food-and-the-marine/consultations/draft-code-of-good-agricultural-practice-for-reducing-ammonia-emissions-from-agriculture/
+IE_ANGLING_STRATEGY,Inland Fisheries Ireland (IFI) (2015): National Strategy for Angling Development (NSAD),IE,biodiversity;water,2015,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.fisheriesireland.ie/national-strategy-for-angling-development
+IE_AQUACULTURE_PLAN,National Plan for Sustainable Aquaculture 2021-2030 (DAFM),IE,agriculture;water,2021,yes,,atlas-text,https://www.gov.ie/en/department-of-agriculture-food-and-the-marine/publications/national-strategic-plan-for-sustainable-aquaculture-development-2030/
+IE_ARTERIAL_DRAINAGE_AMENDMENT_ACT_1995,"Arterial Drainage (Amendment) Act, 1995",IE,water,1995,yes,,kg-segments,https://www.irishstatutebook.ie/eli/1995/act/14/enacted/en/html
+IE_ARTERIAL_DRAINAGE_MAINTENANCE_PLAN_2025,Arterial Drainage Maintenance Plan 2025,IE,water,2025,yes,,kg-segments,https://www.opw.ie/en/flood-risk-management/
+IE_ARTERIAL_DRAIN_ACT,Arterial Drainage Acts 1945 and 1995,IE,water,1995,no,"duplicate of IE_ARTERIAL_DRAINAGE_AMENDMENT_ACT_1995 — 1945+1995 acts; keep the KG 1995 entry, 1945 principal act optional",atlas-text,https://www.irishstatutebook.ie/eli/1945/act/3/enacted/en/html
+IE_ARTERIAL_DRAIN_MAINT,Arterial Drainage Maintenance Activities 2022-2027 (OPW),IE,water,2025,no,duplicate of IE_ARTERIAL_DRAINAGE_MAINTENANCE_PLAN_2025 — overlapping OPW maintenance documents; keep the 2025 plan with text,atlas-text,https://www.opw.ie/en/flood-risk-management/
+IE_BETTER_FARMING_WATER_BOYNE_CATCHMENT,Teagasc Better Water for Farming_Boyne Catchment Area Plan_A4,IE,water,,yes,,kg-segments,https://teagasc.ie/publications/better-farming-for-water-boyne-catchment-action-plan/
+IE_BIODIV_ADAPT,Biodiversity Climate Change Sectoral Adaptation Plan (2019),IE,biodiversity;climate,2019,yes,,kg-segments,https://www.npws.ie/sites/default/files/publications/pdf/Biodiversity-Climate-Change-Sectoral-Adaptation-Plan.pdf
+IE_CAP24,Climate Action Plan 2024,IE,climate,2024,yes,,kg-segments,https://assets.gov.ie/284675/6dbf4646-3534-40ea-9cfa-5b0441aead21.pdf
+IE_CAP25,Climate Action Plan 2025,IE,climate,2025,yes,,kg-segments,https://www.gov.ie/en/publication/climate-action-plan-2025/
+IE_CAPITAL_INVESTMENT_PLAN_2020_2024,Capital Investment Plan 2020 2024 Explanatory Booklet,IE,cross_cutting,2020,yes,,kg-segments,
+IE_CAP_STRATEGIC,Ireland CAP Strategic Plan 2023–2027,IE,agriculture,2023,yes,,kg-segments,https://www.gov.ie/en/publication/76026-common-agricultural-policy-cap-strategic-plan-2023-2027/
+IE_CARBON_BUDGETS,Carbon Budgets Programme (S.I. No. 135/2022),IE,climate,2022,yes,,atlas-text,https://www.irishstatutebook.ie/eli/2022/si/135/made/en/print
+IE_CFRAMS,National CFRAMS Programme 2015-2021,IE,water;climate,2018,yes,,atlas-text,https://www.gov.ie/en/office-of-public-works/policy-information/cfram-programme/
+IE_CIRCULAR_ACT,Circular Economy and Miscellaneous Provisions Act 2022,IE,circular,2022,yes,,atlas-text,https://www.irishstatutebook.ie/eli/2022/act/26/enacted/en/html
+IE_CIRCULAR_STRATEGY,Whole of Government Circular Economy Strategy 2022–2023,IE,circular,2022,yes,,kg-segments,https://www.gov.ie/en/publication/b542d-whole-of-government-circular-economy-strategy-2022-2023/
+IE_CITIZENS_ASSEMBLY_BIODIV,Report of the Citizens' Assembly on Biodiversity Loss,IE,biodiversity,2023,yes,,kg-segments,https://citizensassembly.ie/wp-content/uploads/2023/12/Report-on-Biodiversity-Loss_Volume-1.pdf
+IE_CLEAN_AIR,Clean Air Strategy for Ireland,IE,circular;climate,2023,yes,,kg-segments,https://www.gov.ie/en/publication/clean-air-strategy/
+IE_CLIMATE_ACT,Climate Action and Low Carbon Development (Amendment) Act 2021,IE,climate,2021,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2021/act/32/enacted/en/html
+IE_COASTAL_CHANGE,National Coastal Change Management Strategy (2023),IE,water;climate,2023,yes,,atlas-text,https://assets.gov.ie/274791/3629d224-a11d-479d-94e0-6e0e435999f3.pdf
+IE_COAST_PROTECT_ACT,Coast Protection Act 1963,IE,water,1963,yes,,kg-segments,https://www.irishstatutebook.ie/eli/1963/act/12/enacted/en/html
+IE_CODE_GOOD_AGRICULTURAL_PRACTICE_REDUCING,Code of Good Agricultural Practice for Reducing Ammonia Emissions From Agriculture 6C4,IE,climate,,yes,,kg-segments,https://www.gov.ie/en/department-of-agriculture-food-and-the-marine/consultations/draft-code-of-good-agricultural-practice-for-reducing-ammonia-emissions-from-agriculture/
+IE_COILLTE_FESLUP_REPORT,Coillte Feslup Report,IE,water,,yes,,kg-segments,https://www.coillte.ie/wp-content/uploads/2023/12/Coillte-FESLUP-Report-Final.pdf
+IE_COILLTE_LAND_USE,Coillte Forest Estate Land Use Plan 2023-2050 (Coillte),IE,climate;biodiversity,2023,no,duplicate of IE_COILLTE_FESLUP_REPORT — same plan (FESLUP); KG entry already has extracted text,atlas-text,https://www.coillte.ie/wp-content/uploads/2023/12/Coillte-FESLUP-Report-Final.pdf
+IE_DMAP_GUIDELINES,Designated Maritime Area Plan Guidelines (DECC),IE,water;planning,2023,yes,,atlas-text,https://www.gov.ie/en/department-of-climate-energy-and-the-environment/publications/national-designated-maritime-area-plan-dmap-for-offshore-renewable-energy/
+IE_DMAP_ORE_PROPOSAL,National DMAP for ORE Proposal,IE,cross_cutting,,yes,,kg-segments,https://assets.gov.ie/300449/71bebc0b-a612-4fb3-8e9f-72d8e48b8a07.pdf
+IE_DRAFT_PLAN_FORESTS_FRESHWATER_PEARL,Draft Plan for Forests Freshwater Pearl Mussel in Ireland,IE,water,,yes,,kg-segments,https://www.gov.ie/en/publication/11a47-draft-plan-for-forests-freshwater-pearl-mussel-in-ireland/
+IE_DRAFT_WATER_SERVICES_GUIDELINES,Draft Water Services Guidelines,IE,water,2018,yes,,kg-segments,
+IE_DRINKING_WATER_REGULATIONS,Drinking Water Regulations,IE,water,,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2023/si/99/made/en/print
+IE_DRS,Deposit Return Scheme Regulations,IE,circular,2021,yes,,atlas-text,https://www.irishstatutebook.ie/eli/2021/si/599/made/en/print
+IE_EC_DECISION_2017848_CRITERIA_STANDARDS,Ec Decision 2017848 Criteria Standards for Good Environmental Status for Marine Waters,IE,water,2017,yes,,kg-segments,https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32017D0848
+IE_ENERGY_SECURITY,Energy Security in Ireland to 2030 (SEAI),IE,climate,2023,yes,,atlas-text,https://www.seai.ie/publications/Energy-Security-in-Ireland-2023.pdf
+IE_ENV_PROTECTION_ACT,The Protection of the Environment Act,IE,governance,1992,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2003/act/27/
+IE_EPA_NCCRA_MAIN_REPORT_PUBLISHED,EPA Nccra Main Report Published June 2025,IE,water,2025,yes,,kg-segments,https://www.epa.ie/publications/monitoring--assessment/climate-change/national-climate-change-risk-assessment-main-report.php
+IE_EPA_SOE,EPA Ireland's Environment — An Integrated Assessment 2024,IE,governance,2024,no,duplicate of IE_EPA_SOE_2024 — same report; KG entry already has extracted text,download-needed,https://www.epa.ie/publications/monitoring--assessment/assessment/state-of-the-environment/
+IE_EPA_SOE_2024,EPA State of the Environment Report 2024,IE,cross_cutting,2024,yes,,kg-segments,https://www.epa.ie/our-services/monitoring--assessment/assessment/state-of-environment-report-/
+IE_FACTSHEET_COUNTRY_OVERVIEW_EN,Factsheet Country Overview Ireland En,IE,cross_cutting,,yes,,kg-segments,
+IE_FAQ_DOCUMENT_ORE_DMAP,Faq Document for National ORE DMAP,IE,cross_cutting,,yes,,kg-segments,https://www.gov.ie/en/department-of-climate-energy-and-the-environment/publications/national-designated-maritime-area-plan-dmap-for-offshore-renewable-energy/
+IE_FLOOD_PLANS,Flood Risk Management Plans,IE,water;climate,2018,yes,,atlas-text,https://www.floodinfo.ie/static/floodmaps/docs/national_frmp/National_FRMP.pdf
+IE_FLOOD_RISK_GUIDE,The Planning System and Flood Risk Management Guidelines (and Technical Appendices) for Planning Authorities,IE,water;planning,2009,no,duplicate of IE_2009_PLANNING_SYSTEM_FLOOD_RISK — same 2009 guidelines; KG entry already has extracted text,atlas-text,https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/the-planning-system-and-flood-risk-management-guidelines-for-planning-authorities-nov-09/
+IE_FLORA_PROTECTION,Flora Protection Order,IE,biodiversity,2022,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2022/si/235/
+IE_FOOD_VISION,Food Vision 2030: A World Leader in Sustainable Food Systems,IE,agriculture,2021,yes,,kg-segments,https://www.gov.ie/en/publication/c73a3-food-vision-2030/
+IE_FORESTRY_ACT,Forestry Act 2014,IE,climate;biodiversity,2014,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2014/act/31/enacted/en/html
+IE_FORESTRY_LICENCING_PLAN,Forestry Licencing Plan,IE,forestry,2024,yes,,kg-segments,https://www.gov.ie/en/department-of-agriculture-food-and-the-marine/publications/forestry/
+IE_FORESTRY_PROG,Forestry Programme 2023–2027,IE,climate,2023,yes,,kg-segments,https://www.gov.ie/en/publication/forestry-programme-2023-2027/
+IE_FORESTRY_REGS,Forestry Regulations 2017,IE,climate,2017,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2017/si/191/made/en/print
+IE_FOREST_ACCOUNTING,Ireland's National Forestry Accounting Plan 2021-2025,IE,climate,2019,no,duplicate of IE_FOREST_ACCOUNTING_PLAN_2021_2025 — same plan; KG entry already has extracted text,atlas-text,https://assets.gov.ie/104193/6314f17e-c88c-4f7f-85d1-d2bf81b2a2ff.pdf
+IE_FOREST_ACCOUNTING_PLAN_2021_2025,Irelands National Forest Accounting Plan 2021 2025 Dec,IE,forestry,2021,yes,,kg-segments,https://assets.gov.ie/109140/c2d5cdf7-c9a2-4b8e-abe3-5f373fb30ef9.pdf
+IE_FOREST_IMPL_PLAN,Forest Strategy 2023-2027 Implementation Plan (DAFM),IE,climate;biodiversity,2023,yes,,atlas-text,https://www.gov.ie/en/department-of-agriculture-food-and-the-marine/publications/forest-strategy-implementation-plan-including-the-forestry-programme-2023-2027/
+IE_FOREST_STRATEGY,Ireland's Forest Strategy 2023–2030,IE,climate;biodiversity,2023,yes,,kg-segments,https://www.gov.ie/en/publication/irelands-forest-strategy-2023-2030/
+IE_FPM_FOREST_PLAN,Forestry and Freshwater Pearl Mussel Plan (DAFM),IE,biodiversity;water,2020,no,duplicate of IE_DRAFT_PLAN_FORESTS_FRESHWATER_PEARL — same plan; KG entry already has extracted text,atlas-text,https://www.gov.ie/en/publication/11a47-draft-plan-for-forests-freshwater-pearl-mussel-in-ireland/
+IE_FUTURE_FUND_ACT,"Future Ireland Fund and Infrastructure, Climate and Nature Fund Act 2024",IE,governance;climate,2024,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2024/act/16/enacted/en/html
+IE_GENERAL_SCHEME_MARINE_PROTECTED_AREAS,General Scheme of Marine Protected Areas Bill,IE,water,2022,yes,,kg-segments,https://www.gov.ie/en/department-of-housing-local-government-and-heritage/publications/general-scheme-of-marine-protected-areas-bill-2022/
+IE_GNP_WOODLAND_MANAGEMENT_STRATEGY_PDF,Glenveagh National Park Woodland Management Strategy,IE,cross_cutting,,yes,,kg-segments,https://www.nationalparks.ie/app/uploads/2024/08/GNP-Woodland-Management-Strategy-PDF-ENG.pdf
+IE_GOOD_AGRICULTURAL_PRACTICE_REGS,Good Agricultural Practice Regs,IE,agriculture,,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2022/si/113/made/en/print
+IE_GOOD_AG_PRACTICE,Good Agricultural Practice Regulations (S.I.),IE,agriculture;water,2022,yes,,atlas-text,https://www.irishstatutebook.ie/eli/2022/si/113/made/en/print
+IE_HARBOURS_ACT,The Harbours Act,IE,water,,yes,,kg-segments,https://www.irishstatutebook.ie/eli/1996/act/11/enacted/en/html
+IE_HARNESSINGOUROCEANWEALTHREPORT,Harnessing our ocean wealth report,IE,water,2012,yes,,kg-segments,https://www.ouroceanwealth.ie/sites/default/files/sites/default/files/Publications/2012/HarnessingOurOceanWealthReport.pdf
+IE_HEN_HARRIER_PLAN,Hen Harrier Threat Response Plan 2023- 2027 (NPWS-DHLGH),IE,biodiversity,2023,yes,,kg-segments,https://assets.gov.ie/304583/3c321ea1-c7bc-494d-b809-0a310be70a80.pdf
+IE_HERITAGE_2030,Heritage Ireland 2030,IE,biodiversity;governance,2022,yes,,kg-segments,https://www.gov.ie/en/publication/heritage-ireland-2030/
+IE_HYDROGEN_STRATEGY,National Hydrogen Strategy,IE,climate,2023,yes,,atlas-text,https://www.gov.ie/en/publication/national-hydrogen-strategy/
+IE_JUST_TRANSITION,Just Transition Plan,IE,climate;governance,2022,yes,,kg-segments,https://www.gov.ie/en/publication/just-transition/
+IE_LANDSCAPE_STRATEGY,N Landscape Strategy ENGLISH - inside.indd,IE,cross_cutting,2015,yes,,kg-segments,https://assets.gov.ie/95852/388d4758-50c1-42bd-9adc-0bdfe1291765.pdf
+IE_LAND_USE_REVIEW_PHASE_2,A Living Land - Land Use Review Phase 2,IE,cross_cutting,2026,yes,,kg-segments,https://www.gov.ie/en/department-of-climate-energy-and-the-environment/publications/land-use-review-phase-2/
+IE_LEAD_WATER_PLAN,Lead in Drinking Water Mitigation Plan,IE,water,2019,yes,,kg-segments,https://www.water.ie/projects/strategic-plans/lead-mitigation-plan
+IE_LONG_TERM_STRATEGY,Long-Term Climate Strategy,IE,climate,2023,no,peripheral scraper document deferred to parked batch,scraper-file,https://unfccc.int/sites/default/files/resource/Ireland_LTS_2023.pdf
+IE_MARA_STATEMENT_STRATEGY_2024,MARA Statement of Strategy 2024,IE,cross_cutting,2024,yes,,kg-segments,https://www.maritimeregulator.ie/about/statement-of-strategy/
+IE_MARINE_POLICY_STMT,Marine Planning Policy Statement (DECC),IE,water;planning,2023,yes,,kg-segments,
+IE_MARINE_STRATEGY_P3,Ireland’s Marine Strategy Part 3 Programme of Measures,IE,water,2022,yes,,atlas-text,https://assets.gov.ie/103282/32d0ffba-212d-419b-a3ed-a4ddfdf2bc2d.pdf
+IE_MARITIME_AREA_ACT,Maritime Area Planning Act 2021,IE,water;planning,2021,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2021/act/50/enacted/en/html
+IE_MIDLANDS_TRANSITION,National Just Transition Fund — Midlands,IE,climate;governance,2020,yes,,atlas-text,https://www.gov.ie/en/publication/ed10d-just-transition-fund/
+IE_MONKFISH_CONTROL_LANDINGS_NO_REGULATIONS,Monkfish (Control of Landings) (No. 2) Regulations 2013 (Amendment) Regulations 2021,IE,cross_cutting,2013,yes,,kg-segments,
+IE_MONUMENTS_ACT,National Monuments Act 1930 with subsequent amendments,IE,governance,1930,yes,,kg-segments,https://www.irishstatutebook.ie/eli/1930/act/2/enacted/en/html
+IE_MPA_BILL,Marine Protected Areas Bill 2024,IE,water;biodiversity,2024,no,status=proposed,atlas-text,https://www.oireachtas.ie/en/bills/bill/2024/16/
+IE_MSP,National Marine Planning Framework,IE,water;planning,2021,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.gov.ie/en/publication/national-marine-planning-framework/
+IE_NAF,National Adaptation Framework 2024,IE,climate,2024,yes,,kg-segments,https://www.gov.ie/en/publication/national-adaptation-framework/
+IE_NATIONAL_HEAT_STUDY,National Heat Study,IE,climate,2022,yes,,atlas-text,https://www.seai.ie/publications/National-Heat-Study-Summary.pdf
+IE_NBAP,Ireland's 4th National Biodiversity Action Plan 2023–2030,IE,biodiversity,2023,yes,,kg-segments,https://www.gov.ie/en/publication/irelands-4th-national-biodiversity-action-plan-2023-2030/
+IE_NCCRA,National Climate Change Risk Assessment (NCCRA),IE,climate,2025,no,duplicate of IE_EPA_NCCRA_MAIN_REPORT_PUBLISHED — same document; KG entry already has extracted text,atlas-text,https://www.epa.ie/publications/monitoring--assessment/climate-change/national-climate-change-risk-assessment-main-report.php
+IE_NECP,Ireland National Energy and Climate Plan (NECP) 2021-2030 (Updated July 2024),IE,climate,2021,yes,,kg-segments,https://www.gov.ie/en/publication/0195c-irelands-national-energy-and-climate-plan-2021-2030/
+IE_NITRATES_AP5,Fifth Nitrates Action Programme 2022-2025 (S.I. No. 113/2022),IE,water,2022,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2022/si/113/made/en/pdf
+IE_NPF,National Planning Framework — Project Ireland 2040,IE,planning;governance,2018,yes,,kg-segments,https://npf.ie/wp-content/uploads/Project-Ireland-2040-NPF.pdf
+IE_NPWS_STRATEGY,NPWS Strategic Action Plan,IE,biodiversity,2023,yes,,atlas-text,https://www.npws.ie/sites/default/files/publications/pdf/NPWS_Strategic_Plan_2023-2025.pdf
+IE_OFFSHORE_WIND,Offshore Renewable Energy Development Plan,IE,climate;water,2023,yes,,kg-segments,https://www.gov.ie/en/publication/offshore-renewable-energy-development-plan/
+IE_OREDP_II,Offshore Marine Planning Guidelines (DECC),IE,climate;water,2023,yes,,atlas-text,https://www.gov.ie/en/department-of-climate-energy-and-the-environment/publications/national-designated-maritime-area-plan-dmap-for-offshore-renewable-energy/
+IE_OSPAR_CONVENTION,Sintra Statement Paper,IE,water,1998,yes,,kg-segments,https://www.ospar.org/convention/text
+IE_PEATLANDS_PCAS,Peatlands Climate Action Scheme (Enhanced Decommissioning Restoration and Rehabilitation Scheme EDRSS),IE,biodiversity;climate,2021,yes,,atlas-text,https://www.bnmpcas.ie/
+IE_PLANNING_ACT_2024,Planning and Development Act 2024,IE,planning,2024,yes,,atlas-text,https://www.irishstatutebook.ie/eli/2024/act/34/
+IE_PLANNING_DEVELOPMENT_HERITAGE_BROADCASTI,"Planning and Development, Heritage and Broadcasting (Amendment) Act",IE,cross_cutting,,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2021/act/11/enacted/en/html
+IE_POLLINATOR_PLAN,All-Ireland Pollinator Plan 2021–2025,IE,biodiversity,2021,yes,,kg-segments,https://pollinators.ie/wp-content/uploads/2021/03/All-Ireland-Pollinator-Plan-2021-2025-WEB.pdf
+IE_PORTS_POLICY,National Ports Policy,IE,water;planning,2013,yes,,atlas-text,https://www.imdo.ie/services/policy-advice/national-ports-policy
+IE_RAISED_BOG_SAC,National Raised-Bog SAC Management Plan 2017,IE,biodiversity,2017,yes,,atlas-text,https://www.npws.ie/sites/default/files/publications/pdf/National%20Raised%20Bog%20SACs%20Management%20Plan%202017_2022%20(WEB_English).pdf
+IE_REPORT_DEER_MANAGEMENT_STRATEGY_GROUP,Irish Deer Management Strategy Group,IE,water,,yes,,kg-segments,https://assets.gov.ie/static/documents/report-of-the-deer-management-strategy-group.pdf
+IE_RESS,Renewable Electricity Support Scheme,IE,climate,2020,yes,,atlas-text,https://www.gov.ie/en/publication/36d8d2-renewable-electricity-support-scheme/
+IE_RURAL_FUTURE,Our rural future: Rural Development Policy 2021-2025 (DCRD),IE,agriculture;governance,2021,yes,,atlas-text,https://www.gov.ie/en/department-of-rural-and-community-development-and-the-gaeltacht/publications/our-rural-future-rural-development-policy-2021-2025/
+IE_SDG_IMPL,SDG National Implementation Plan 2022–2024,IE,governance,2022,no,duplicate of IE_SDG_IMPLEMENTATION — same plan; scraper entry already has the downloaded file,download-needed,https://www.gov.ie/en/publication/e950f-sustainable-development-goals-national-implementation-plan-2022-2024/
+IE_SEAFOOD_PROG,Seafood Development Programme 2021- 2027 (DAFM),IE,agriculture;water,2021,yes,,kg-segments,https://www.gov.ie/en/department-of-agriculture-food-and-the-marine/consultations/public-consultation-on-the-draft-seafood-development-programme-2021-27-irelands-programme-under-the-emfaf/
+IE_SECTORAL_CEILINGS,Sectoral Emissions Ceilings (S.I. No. 270/2022),IE,climate,2022,yes,,atlas-text,https://www.irishstatutebook.ie/eli/2022/si/270/made/en/print
+IE_SHARED_ISLAND,Shared Island Funded Nature Initiatives,IE,biodiversity;governance,2023,yes,,atlas-text,https://www.gov.ie/en/campaigns/shared-island/
+IE_SHARED_ISLAND_PROGRAMMES,Shared Island Programmes,IE,cross_cutting,,yes,,kg-segments,https://www.gov.ie/en/campaigns/shared-island/
+IE_SI_NO_117_2003_COMMUNITIES,Port Reception Facilities for Ship Generated Waste and Cargo Residues Regulations 2003,IE,water,2003,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2003/si/117/
+IE_SUSTAINABLE_FW,Our Sustainable Future: A Development Framework for Sustainable Development in Ireland 2010-2030,IE,governance,2012,yes,,atlas-text,https://developmenteducation.ie/media/documents/Our%20sustainable%20future%20irish%20framework.pdf
+IE_WAP24,Water Action Plan 2024 (3rd River Basin Management Plan),IE,water,2024,yes,,kg-segments,https://www.gov.ie/en/publication/river-basin-management-plan/
+IE_WATERWAYS_HERITAGE,Waterways Ireland Heritage Plan 2016-2020,IE,water,2016,yes,,atlas-text,https://www.waterwaysireland.org/about-us/public-consultations/waterways-ireland-heritage-and-biodiversity-plan
+IE_WATER_PLANNING_GUIDE,Water and Planning Guidelines,IE,water;planning,2018,yes,,atlas-text,
+IE_WATER_POLICY_2030,Water Services Policy Statement 2024-2030 (DHLGH),IE,water,2024,yes,,atlas-text,https://www.gov.ie/en/publication/443cc-water-services-policy-statement-2024-2030/
+IE_WATER_POLLUTION_ACT,"Local Government (Water Pollution) Act, 1977 (Water Quality Standards for Phosphorus) Regulations 1998",IE,water,1977,yes,,kg-segments,https://www.irishstatutebook.ie/eli/1977/act/1/enacted/en/html
+IE_WATER_RESOURCES_FW,National Water Resources Framework Plan (Uisce Éireann),IE,water,2021,yes,,atlas-text,https://www.water.ie/projects/strategic-plans/
+IE_WATER_SERVICES_NO_ACT_2013,Water Services (No. 2) Act 2013 (Property Vesting Day) Order 2021,IE,water,2013,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2021/si/319/made/en/print
+IE_WATER_SERVICES_PLAN,Water Services Strategic Plan (2019-2024) (Uisce Éireann),IE,water,2019,yes,,atlas-text,https://www.water.ie/projects/strategic-plans/
+IE_WATER_STRAT_2050,Water Services Strategic Plan 2050 (Uisce Éireann),IE,water,2023,yes,,atlas-text,https://www.water.ie/projects/strategic-plans/
+IE_WILDLIFE_AMEND,Wildlife (Amendment) Act 2023,IE,biodiversity,2023,yes,,kg-segments,https://www.irishstatutebook.ie/eli/2023/act/7/enacted/en/html
+LO_CARLOW_CLIMATE,Carlow Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_CARO_ATLANTIC,Atlantic Seaboard Climate Action Regional Office — Climate Action Plan,LO,climate,2024,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.atlanticseaboardcaro.ie/
+LO_CAVAN_CLIMATE,Cavan Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_CONNACHT_ULSTER_WASTE,Connacht-Ulster Regional Waste Management Plan 2024–2030,LO,circular,2024,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.connaughtulsterwaste.ie/
+LO_CORK_CDP,Cork County Development Plan 2022–2028,LO,planning;governance,2022,no,condensed into LO_CDP_COMPOSITE (sampled composite),atlas-text,https://www.corkcoco.ie/en/cork-county-development-plan-2022-2028
+LO_CORK_CITY_CLIMATE,Cork City Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),scraper-file,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_CORK_CLIMATE,Cork City Climate Adaptation Strategy,LO,climate,2019,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),download-needed,https://www.corkcity.ie/en/council-services/services/environment/climate-change/
+LO_CORK_COUNTY_CLIMATE,Cork County Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_DLR_CLIMATE,Dún Laoghaire-Rathdown Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_DONEGAL_CLIMATE,Donegal Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_DUBLIN_CDP,Dublin City Development Plan 2022–2028,LO,planning;governance,2022,no,condensed into LO_CDP_COMPOSITE (sampled composite),download-needed,https://www.dublincity.ie/residential/planning/strategic-planning/dublin-city-development-plan/dublin-city-development-plan-2022-2028
+LO_DUBLIN_CITY_CLIMATE,Dublin City Local Authority Climate Action Plan 2024-2029,LO,climate,2024,yes,named exemplar of the local climate plan family,atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_DUBLIN_CLIMATE,Dublin Climate Action Plan 2024,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.dublincity.ie/residential/environment/dublin-city-councils-climate-change-action-plan
+LO_EASTERN_MIDLAND_WASTE,Eastern-Midlands Regional Waste Management Plan 2024–2030,LO,circular,2024,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.emwr.ie/
+LO_FINGAL_BIODIV,Fingal Biodiversity Action Plan,LO,biodiversity,2024,no,condensed into LO_BIODIV_COMPOSITE (sampled composite),atlas-text,https://actionforbiodiversity.ie/local-authorities/
+LO_FINGAL_CLIMATE,Fingal Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_GALWAY_BIODIV,Galway City Biodiversity Action Plan,LO,biodiversity,2024,no,condensed into LO_BIODIV_COMPOSITE (sampled composite),download-needed,https://www.galwaycity.ie/biodiversity-action-plan
+LO_GALWAY_CDP,Galway County Development Plan 2022–2028,LO,planning;governance,2022,no,condensed into LO_CDP_COMPOSITE (sampled composite),download-needed,https://www.galway.ie/en/services/planning/development-plans/county-development-plan/
+LO_GALWAY_CITY_CLIMATE,Galway City Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_GALWAY_COUNTY_CLIMATE,Galway County Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_KERRY_CLIMATE,Kerry Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_KILDARE_CLIMATE,Kildare Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_KILKENNY_CLIMATE,Kilkenny Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_LAOIS_CLIMATE,Laois Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_LEITRIM_CLIMATE,Leitrim Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_LIMERICK_CLIMATE,Limerick Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_LONGFORD_CLIMATE,Longford Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_LOUTH_CLIMATE,Louth Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_MAYO_CLIMATE,Mayo Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_MEATH_BIODIV,Meath Biodiversity Action Plan,LO,biodiversity,2024,no,condensed into LO_BIODIV_COMPOSITE (sampled composite),atlas-text,https://actionforbiodiversity.ie/local-authorities/
+LO_MONAGHAN_CLIMATE,Monaghan Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_OFFALY_BIODIV,Offaly Biodiversity Action Plan,LO,biodiversity,2024,no,condensed into LO_BIODIV_COMPOSITE (sampled composite),atlas-text,https://actionforbiodiversity.ie/local-authorities/
+LO_OFFALY_CLIMATE,Offaly Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_ROSCOMMON_CDP,Roscommon County Development Plan 2022–2028,LO,planning;governance,2022,no,condensed into LO_CDP_COMPOSITE (sampled composite),download-needed,https://www.roscommoncoco.ie/en/services/planning/development-plans/
+LO_ROSCOMMON_CLIMATE,Roscommon Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_SHANNON_CATCHMENT,Shannon Catchment Assessment 2022–2027,LO,water,2022,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.catchments.ie/shannon/
+LO_SOUTH_DUBLIN_CLIMATE,South Dublin Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_TIPPERARY_BIODIV,Tipperary Biodiversity Action Plan,LO,biodiversity,2024,no,condensed into LO_BIODIV_COMPOSITE (sampled composite),atlas-text,https://actionforbiodiversity.ie/local-authorities/
+LO_TIPPERARY_CLIMATE,Tipperary Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_WATERFORD_CLIMATE,Waterford Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_WESTMEATH_CLIMATE,Westmeath Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_WEXFORD_CLIMATE,Wexford Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_WICKLOW_CLIMATE,Wicklow Local Authority Climate Action Plan 2024-2029,LO,climate,2024,no,condensed into LO_CLIMATE_COMPOSITE (sampled composite),atlas-text,https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+EU_ACCESS_INFO,Access Info,EU,cross_cutting,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32003L0004
+EU_ANIMAL_WELFARE,Animal Welfare,EU,cross_cutting,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023PC0770
+EU_CLP_REG,Clp Reg,EU,cross_cutting,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32008R1272
+EU_CRITICAL_RAW_MATERIALS,Critical Raw Materials,EU,cross_cutting,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32024R1252
+EU_END,End,EU,cross_cutting,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32002L0049
+EU_ENV_LIABILITY,Env Liability,EU,cross_cutting,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32004L0035
+EU_EQS_DIR,Eqs Dir,EU,water,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32008L0105
+EU_FIT_FOR_55,Fit For 55,EU,climate,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52021DC0550
+EU_FOOD_WASTE,Food Waste,EU,agriculture,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023PC0420
+EU_ORGANIC_REG,Organic Reg,EU,agriculture,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32018R0848
+EU_POLLINATORS,Pollinators,EU,biodiversity,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52023DC0035
+EU_ROHS_DIR,Rohs Dir,EU,cross_cutting,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32011L0065
+EU_SUR,Sur,EU,cross_cutting,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52022PC0305
+EU_SUSTAINABLE_FINANCE,Sustainable Finance,EU,cross_cutting,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32019R2088
+EU_TERRITORIAL_AGENDA,Territorial Agenda,EU,cross_cutting,,no,peripheral scraper document deferred to parked batch,scraper-file,https://territorialagenda.eu/wp-content/uploads/TA2030_jun2021_en.pdf
+EU_WEEE_DIR,Weee Dir,EU,cross_cutting,,no,peripheral scraper document deferred to parked batch,scraper-file,https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32012L0019
+IE_AGRI_EMISSIONS,Agri Emissions,IE,climate,,no,duplicate of IE_AG_CLIMATISE — same roadmap (Ag Climatise); KG entry already has extracted text,download-needed,https://assets.gov.ie/38072/10b9338fec374ffba63c56d78a9c80d4.pdf
+IE_AGRI_FOOD_STRATEGY,Agri Food Strategy,IE,agriculture,,no,duplicate of IE_FOOD_VISION — same strategy (Food Vision 2030); KG entry already has extracted text,download-needed,https://assets.gov.ie/110200/dbb3fbd7-ad82-416b-bcff-cbff2ba55280.pdf
+IE_COFORD_LAND_USE,Coford Land Use,IE,forestry,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.coford.ie/media/coford/content/publications/2023/LandUseReview-Phase1.pdf
+IE_DMAP_ORE,Dmap Ore,IE,cross_cutting,,no,duplicate of IE_DMAP_ORE_PROPOSAL — same document; KG entry already has extracted text,download-needed,https://assets.gov.ie/300449/71bebc0b-a612-4fb3-8e9f-72d8e48b8a07.pdf
+IE_EIA_GUIDELINES,Eia Guidelines,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.opr.ie/wp-content/uploads/2019/08/2018-Environmental-Impact-Assessment-1.pdf
+IE_EPA_INDICATORS,Epa Indicators,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.epa.ie/publications/monitoring--assessment/assessment/state-of-the-environment/EPA_Indicators_Report_2023_web.pdf
+IE_FORESHORE_ACT,Foreshore Act,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://revisedacts.lawreform.ie/eli/1933/act/12/front/revised/en/pdf
+IE_FRESHWATER_PEARL_MUSSEL,Freshwater Pearl Mussel,IE,water,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.npws.ie/sites/default/files/publications/pdf/Freshwater%20Pearl%20Mussel%20Sub-basin%20Management%20Plans%20-%20Literature%20Review.pdf
+IE_INVASIVE_SPECIES,Invasive Species,IE,biodiversity,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.npws.ie/sites/default/files/publications/pdf/National_Invasive_Alien_Species_Management_Plan.pdf
+IE_LULUCF_PLAN,Lulucf Plan,IE,climate,,no,duplicate of IE_FOREST_ACCOUNTING_PLAN_2021_2025 — same plan (NFAP/LULUCF forest reference levels); KG entry already has extracted text,download-needed,https://assets.gov.ie/109140/c2d5cdf7-c9a2-4b8e-abe3-5f373fb30ef9.pdf
+IE_MARINE_STRATEGY,Marine Strategy,IE,water,,no,duplicate of IE_MARINE_STRATEGY_P3 — same document (MSFD Part 3 PoM); kept entry has KG text via twin,download-needed,https://assets.gov.ie/103282/32d0ffba-212d-419b-a3ed-a4ddfdf2bc2d.pdf
+IE_NATIONAL_PARKS_PLAN,National Parks Plan,IE,biodiversity,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.npws.ie/sites/default/files/general/ws-and-nps-strategy.pdf
+IE_NATIONAL_SOIL_STRATEGY,National Soil Strategy,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://assets.gov.ie/288417/0a945b1d-7208-4172-88f5-46a2a07c08fc.pdf
+IE_NATIONAL_WASTE_PLAN,National Waste Plan,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://nationalwasteplan.ie/wp-content/uploads/2024/03/National-Waste-Management-Plan-for-a-Circular-Economy-2024-2030-English.pdf
+IE_NDP,Ndp,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://assets.gov.ie/201202/69d1b7b7-eb27-4638-aaee-da5ea451855a.pdf
+IE_NOISE_ACTION,Noise Action,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.epa.ie/publications/monitoring--assessment/noise/Round-4-Noise-Action-Plan-Guidance.pdf
+IE_OCEAN_WEALTH,Ocean Wealth,IE,water,,no,duplicate of IE_HARNESSINGOUROCEANWEALTHREPORT — same document; KG entry already has extracted text,download-needed,https://www.marine.ie/sites/default/files/harnessing_our_ocean_wealth_-_an_integrated_marine_plan_for_ireland.pdf
+IE_ORGANIC_STRATEGY,Organic Strategy,IE,agriculture,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://assets.gov.ie/114979/e1e1a5a0-d4fb-4b52-b8f2-ab97e743a3d5.pdf
+IE_PEATLANDS_STRATEGY,Peatlands Strategy,IE,biodiversity,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.npws.ie/sites/default/files/publications/pdf/NationalPeatlandsStrategy2015EnglishVersion.pdf
+IE_PLANNING_ACT,Planning Act,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://data.oireachtas.ie/ie/oireachtas/bill/2023/81/eng/enacted/b81b23d.pdf
+IE_PLASTIC_BAG_LEVY,Plastic Bag Levy,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://assets.gov.ie/223709/78f2cb5e-5fb0-4e31-8930-9b4e859ec1d0.pdf
+IE_RSES_EAST,Rses East,IE,cross_cutting,,yes,,download-needed,https://emra.ie/dubh/wp-content/uploads/2020/05/EMRA_RSES_1.4.5_web.pdf
+IE_RSES_NORTH,Rses North,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.nwra.ie/wp-content/uploads/2020/04/NWRA-RSES-2020-2032.pdf
+IE_RSES_SOUTH,Rses South,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.southernassembly.ie/uploads/general-files/RSES-Southern-Region.pdf
+IE_SDG_IMPLEMENTATION,SDG National Implementation Plan 2022–2024,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://assets.gov.ie/236725/94916a2b-dff8-4ff4-bf9e-8c33ec7c3365.pdf
+IE_SDG_REPORT,SDG National Progress Report,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://assets.gov.ie/264389/c27ea2a0-4fc7-4581-9b16-56094cd6f398.pdf
+IE_SEA_GUIDELINES,Sea Guidelines,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://assets.gov.ie/218086/e3e07db8-75ea-401c-b695-1279a0b0d381.pdf
+IE_TEAGASC_SUSTAINABILITY,Teagasc Sustainability,IE,agriculture,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://www.teagasc.ie/media/website/publications/2023/2022-Sustainability-Report.pdf
+IE_WASTE_ACTION_PLAN,Waste Action Plan,IE,cross_cutting,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://assets.gov.ie/86646/c26b9a89-22a3-4876-b816-dc50a58ef3bb.pdf
+IE_WATER_SERVICES_ACT,Water Services Act,IE,water,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://revisedacts.lawreform.ie/eli/2007/act/30/front/revised/en/pdf
+IE_WILDLIFE_ACT,Wildlife Act,IE,biodiversity,,no,text not fetchable via automation — deferred to parked batch,download-needed,https://revisedacts.lawreform.ie/eli/1976/act/39/front/revised/en/pdf
+LO_CLIMATE_COMPOSITE,Local Authority Climate Action Plans 2024–2029 (composite) — 29 plans,LO,climate,2024,yes,"composite of 29 members, 7 segments sampled per member","composite:LO_CARLOW_CLIMATE,LO_CAVAN_CLIMATE,LO_CORK_CITY_CLIMATE,LO_CORK_CLIMATE,LO_CORK_COUNTY_CLIMATE,LO_DLR_CLIMATE,LO_DONEGAL_CLIMATE,LO_DUBLIN_CLIMATE,LO_FINGAL_CLIMATE,LO_GALWAY_CITY_CLIMATE,LO_GALWAY_COUNTY_CLIMATE,LO_KERRY_CLIMATE,LO_KILDARE_CLIMATE,LO_KILKENNY_CLIMATE,LO_LAOIS_CLIMATE,LO_LEITRIM_CLIMATE,LO_LIMERICK_CLIMATE,LO_LONGFORD_CLIMATE,LO_LOUTH_CLIMATE,LO_MAYO_CLIMATE,LO_MONAGHAN_CLIMATE,LO_OFFALY_CLIMATE,LO_ROSCOMMON_CLIMATE,LO_SOUTH_DUBLIN_CLIMATE,LO_TIPPERARY_CLIMATE,LO_WATERFORD_CLIMATE,LO_WESTMEATH_CLIMATE,LO_WEXFORD_CLIMATE,LO_WICKLOW_CLIMATE",https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029
+LO_BIODIV_COMPOSITE,Local Authority Biodiversity Action Plans (composite) — 5 plans,LO,biodiversity,2024,yes,"composite of 5 members, 7 segments sampled per member","composite:LO_FINGAL_BIODIV,LO_GALWAY_BIODIV,LO_MEATH_BIODIV,LO_OFFALY_BIODIV,LO_TIPPERARY_BIODIV",
+LO_CDP_COMPOSITE,County Development Plans 2022–2028 (composite) — 4 plans,LO,cross_cutting,2024,yes,"composite of 4 members, 7 segments sampled per member","composite:LO_CORK_CDP,LO_DUBLIN_CDP,LO_GALWAY_CDP,LO_ROSCOMMON_CDP",

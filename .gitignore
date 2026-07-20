@@ -1,0 +1,18 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.npy
+corpus_build/downloads/
+corpus_build/*.npy
+.cache/
+.DS_Store
+Thumbs.db
+# large graph exports (HTML in output/ is committed)
+output/*_data.json
+output/*.graphml
+# the segment corpus is committed gzipped (~10 MB); never the 37 MB raw JSON
+corpus_build/final_segments.json
+# formatted document builds are deposited on Zenodo, not tracked here
+docs/*.pdf
+docs/*.docx

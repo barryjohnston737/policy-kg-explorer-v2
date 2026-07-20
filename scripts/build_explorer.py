@@ -534,7 +534,28 @@ const PALETTES = {
     labelBg: 'rgba(255,255,255,0.88)', labelBorder: 'rgba(150,166,182,0.95)',
   },
 };
-let theme = (localStorage.getItem('kg-theme') === 'light') ? 'light' : 'dark';
+// Preference storage. localStorage throws outright in some browser
+// configurations (Safari with cookies blocked, certain file:// contexts), and
+// this runs before anything is drawn — an unguarded call would leave a blank
+// page. Fall back to an in-memory store: preferences then last for the session
+// only, which is a far better failure than not rendering at all.
+const kgStore = (function () {
+  try {
+    const probe = '__kg_probe__';
+    window.localStorage.setItem(probe, probe);
+    window.localStorage.removeItem(probe);
+    return window.localStorage;
+  } catch (e) {
+    const mem = {};
+    return {
+      getItem: k => (k in mem ? mem[k] : null),
+      setItem: (k, v) => { mem[k] = String(v); },
+      removeItem: k => { delete mem[k]; },
+    };
+  }
+})();
+
+let theme = (kgStore.getItem('kg-theme') === 'light') ? 'light' : 'dark';
 document.documentElement.setAttribute('data-theme', theme);
 function pal() { return PALETTES[theme]; }
 function typeColor(t) { return pal().type[t] || pal().type.cross_cutting; }
@@ -553,7 +574,7 @@ THEME_TOGGLE_JS = """
 function toggleTheme() {
   theme = theme === 'light' ? 'dark' : 'light';
   document.documentElement.setAttribute('data-theme', theme);
-  localStorage.setItem('kg-theme', theme);
+  kgStore.setItem('kg-theme', theme);
   updateThemeBtn();
   onThemeChange();
 }
@@ -2089,11 +2110,11 @@ function highlightActiveMetric(mode) {
 function togglePanel(head) {
   head.parentElement.classList.toggle('closed');
   const closed = [...document.querySelectorAll('.panel.closed')].map(p => p.dataset.panel);
-  localStorage.setItem('kg-panels-closed', JSON.stringify(closed));
+  kgStore.setItem('kg-panels-closed', JSON.stringify(closed));
 }
 (function(){
   try {
-    JSON.parse(localStorage.getItem('kg-panels-closed') || '[]').forEach(k => {
+    JSON.parse(kgStore.getItem('kg-panels-closed') || '[]').forEach(k => {
       const p = document.querySelector(`.panel[data-panel="${k}"]`);
       if (p) p.classList.add('closed');
     });
@@ -2492,7 +2513,19 @@ def main():
     output_dir = Path(args.output).parent
     stem = Path(args.output).stem
 
-    with open(args.segments, encoding="utf-8") as f:
+    # Create the destination up front: the build can take minutes, and failing
+    # to write at the end would throw all of that away.
+    if output_dir and not output_dir.exists():
+        output_dir.mkdir(parents=True, exist_ok=True)
+
+    seg_path = Path(args.segments)
+    if not seg_path.exists():
+        gz = Path(str(seg_path) + ".gz")
+        if gz.exists():
+            raise SystemExit(f"{seg_path} not found, but {gz.name} is present.\n"
+                             f"Decompress it first:  gunzip -k {gz}")
+        raise SystemExit(f"Segments file not found: {seg_path}")
+    with open(seg_path, encoding="utf-8") as f:
         segments = json.load(f)
 
     embeddings = {}
@@ -2501,13 +2534,23 @@ def main():
             if "=" not in spec:
                 raise SystemExit(f"--emb expects name=path, got: {spec}")
             name, path = spec.split("=", 1)
-            embeddings[name.strip()] = np.load(path.strip())
+            p = Path(path.strip())
+            if not p.exists():
+                raise SystemExit(f"Embedding file not found: {p}")
+            embeddings[name.strip()] = np.load(p)
     else:
         if not (args.bge and args.minilm):
             raise SystemExit("Provide embeddings via --emb name=path (repeatable) "
                              "or legacy --bge/--minilm.")
         embeddings["bge"] = np.load(args.bge)
         embeddings["minilm"] = np.load(args.minilm)
+
+    for name, arr in embeddings.items():
+        if arr.shape[0] != len(segments):
+            raise SystemExit(
+                f"Embedding '{name}' has {arr.shape[0]} rows but {seg_path.name} has "
+                f"{len(segments)} segments.\nThey must correspond one-to-one — "
+                f"re-run scripts/embed_final.py after any change to the segments.")
 
     shapes = ", ".join(f"{n} {e.shape}" for n, e in embeddings.items())
     print(f"Loaded: {len(segments)} segments | embeddings: {shapes}")

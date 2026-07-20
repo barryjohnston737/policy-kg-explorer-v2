@@ -5,8 +5,8 @@
   "access_right": "open",
   "license": "MIT",
   "creators": [
-    { "name": "Johnston, B.", "affiliation": "Atlantic Technological University" },
-    { "name": "Moran, J.", "affiliation": "Atlantic Technological University" }
+    { "name": "Johnston, Barry", "affiliation": "Atlantic Technological University", "orcid": "0000-0002-5287-2287" },
+    { "name": "Moran, James", "affiliation": "Atlantic Technological University", "orcid": "0000-0002-2845-4325" }
   ],
   "keywords": [
     "text embeddings",
@@ -17,5 +17,5 @@
     "information visualisation",
     "natural language processing"
   ],
-  "version": "2.0.1"
+  "version": "2.0.2"
 }

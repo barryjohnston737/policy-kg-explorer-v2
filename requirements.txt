@@ -1,0 +1,27 @@
+# Policy KG Explorer — Python dependencies
+#
+# Rebuilding the explorer from the committed segments needs only the first two
+# groups. The rest are for re-embedding or rebuilding the corpus from source
+# documents.
+#
+#     pip install -r requirements.txt
+#
+# Tested on Python 3.10-3.13.
+
+# --- building the graph and explorer (scripts/build_explorer.py) ---
+numpy>=1.24
+networkx>=3.0
+
+# --- library tooling (merge_libraries.py, sync_from_csv.py) ---
+PyYAML>=6.0
+
+# --- re-embedding the corpus (scripts/embed_final.py) ---
+# Large: pulls in torch and downloads ~3.5 GB of model weights on first use.
+# Omit if you only intend to rebuild from existing .npy embeddings.
+sentence-transformers>=2.2
+
+# --- corpus ingestion from source documents (ingest_corpus.py, scan_corpus.py) ---
+# Only needed when adding new documents; not required to rebuild this corpus.
+pdfplumber>=0.10
+PyPDF2>=3.0
+openpyxl>=3.1

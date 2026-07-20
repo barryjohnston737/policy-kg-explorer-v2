@@ -388,7 +388,28 @@ const PALETTES = {
     labelBg: 'rgba(255,255,255,0.88)', labelBorder: 'rgba(150,166,182,0.95)',
   },
 };
-let theme = (localStorage.getItem('kg-theme') === 'light') ? 'light' : 'dark';
+// Preference storage. localStorage throws outright in some browser
+// configurations (Safari with cookies blocked, certain file:// contexts), and
+// this runs before anything is drawn — an unguarded call would leave a blank
+// page. Fall back to an in-memory store: preferences then last for the session
+// only, which is a far better failure than not rendering at all.
+const kgStore = (function () {
+  try {
+    const probe = '__kg_probe__';
+    window.localStorage.setItem(probe, probe);
+    window.localStorage.removeItem(probe);
+    return window.localStorage;
+  } catch (e) {
+    const mem = {};
+    return {
+      getItem: k => (k in mem ? mem[k] : null),
+      setItem: (k, v) => { mem[k] = String(v); },
+      removeItem: k => { delete mem[k]; },
+    };
+  }
+})();
+
+let theme = (kgStore.getItem('kg-theme') === 'light') ? 'light' : 'dark';
 document.documentElement.setAttribute('data-theme', theme);
 function pal() { return PALETTES[theme]; }
 function typeColor(t) { return pal().type[t] || pal().type.cross_cutting; }
@@ -1541,11 +1562,11 @@ function highlightActiveMetric(mode) {
 function togglePanel(head) {
   head.parentElement.classList.toggle('closed');
   const closed = [...document.querySelectorAll('.panel.closed')].map(p => p.dataset.panel);
-  localStorage.setItem('kg-panels-closed', JSON.stringify(closed));
+  kgStore.setItem('kg-panels-closed', JSON.stringify(closed));
 }
 (function(){
   try {
-    JSON.parse(localStorage.getItem('kg-panels-closed') || '[]').forEach(k => {
+    JSON.parse(kgStore.getItem('kg-panels-closed') || '[]').forEach(k => {
       const p = document.querySelector(`.panel[data-panel="${k}"]`);
       if (p) p.classList.add('closed');
     });
@@ -1872,7 +1893,7 @@ function resetGraph() {
 function toggleTheme() {
   theme = theme === 'light' ? 'dark' : 'light';
   document.documentElement.setAttribute('data-theme', theme);
-  localStorage.setItem('kg-theme', theme);
+  kgStore.setItem('kg-theme', theme);
   updateThemeBtn();
   onThemeChange();
 }

@@ -120,6 +120,13 @@ libraries (D3.js, three.js, 3d-force-graph) and fonts from public content-delive
 so an internet connection is required to display the visualisations. No corpus data travels
 in either direction over these connections.
 
+On opening the 3D view, the browser console reports `WARNING: Multiple instances of Three.js
+being imported`. This is expected and harmless: the page loads Three.js directly — the
+explorer builds its own node geometry with it — while `3d-force-graph` also bundles a copy
+internally. The only cost is a duplicated library download. Display preferences (theme,
+collapsed panels) are kept in browser local storage; where a browser blocks that, the
+explorer falls back to in-memory settings that last for the session, and renders normally.
+
 ### What is stored on disk
 
 | File type | What it contains | Sensitive? |

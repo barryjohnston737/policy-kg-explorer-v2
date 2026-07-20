@@ -42,7 +42,7 @@ Licensed under the [MIT License](LICENSE).
 
 **Software:**
 Johnston, B. & Moran, J. (2026). *Policy Knowledge Graph Explorer: a multi-model semantic
-knowledge graph for exploring environmental governance corpora* (v2.0.1). Zenodo.
+knowledge graph for exploring environmental governance corpora* (v2.0.2). Zenodo.
 https://doi.org/10.5281/zenodo.21459285
 
 **Policy brief:**
@@ -86,6 +86,7 @@ is kept individually as a named exemplar.
 | `scripts/gen_corpus_scope.py` | Derives `corpus_scope.csv` from the master library |
 | `scripts/merge_libraries.py`, `sync_from_csv.py` | Library assembly and round-tripping |
 | `scripts/gen_download_batch.py` | Builds fetch lists for documents still needing text |
+| `requirements.txt` | Python dependencies, grouped by which task needs them |
 | `master_library.csv` | Unified document library (300 documents, provenance, quality flags) |
 | `corpus_scope.csv` | Which library documents are in this build, and why |
 | `corpus_build/final_segments.json.gz` | The 13,871 assembled segments (gzipped, ~10 MB) |
@@ -100,7 +101,7 @@ corpus is committed gzipped — the scripts decompress it automatically on first
 From a fresh clone, two commands:
 
 ```bash
-python3 -m venv .venv && .venv/bin/pip install sentence-transformers numpy networkx
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 
 # 1. embed the segments — tri-model, ~1–2 h and ~3.5 GB of model weights on
 #    the first run; completed models are skipped if you need to restart
@@ -111,12 +112,16 @@ PYTHON=.venv/bin/python bash scripts/build_final.sh
 ```
 
 `PYTHON` defaults to `python3` if unset. Both scripts resolve paths relative to
-the repository, so neither needs editing.
+the repository, so neither needs editing, and the gzipped corpus is decompressed
+automatically on first use.
+
+If you already have the `.npy` embeddings and only want to rebuild the graph,
+`numpy` and `networkx` alone are enough — step 2 takes about 15 seconds.
 
 Rebuilding the corpus from source documents (rather than the committed segments)
-additionally needs `pdfplumber`, the source PDFs, and the external text
-directories referenced by `gen_corpus_scope.py` — see `corpus_scope.csv` for
-where each document's text came from.
+additionally needs the source PDFs and the external text directories referenced
+by `gen_corpus_scope.py`; see `corpus_scope.csv` for where each document's text
+came from.
 
 ## Method in one paragraph
 

@@ -9,11 +9,11 @@ authors:
   - given-names: Barry
     family-names: Johnston
     affiliation: Atlantic Technological University
-    ORCID: 'https://orcid.org/0000-0002-5287-2287'
+    orcid: 'https://orcid.org/0000-0002-5287-2287'
   - given-names: James
     family-names: Moran
     affiliation: Atlantic Technological University
-    ORCID: 'https://orcid.org/0000-0002-2845-4325'
+    orcid: 'https://orcid.org/0000-0002-2845-4325'
 abstract: >-
   An interactive knowledge-graph tool that maps the semantic relationships
   across a corpus of 191 Irish, EU and international environmental-governance
@@ -34,7 +34,7 @@ keywords:
   - information visualisation
   - natural language processing
 license: MIT
-version: 2.0.1
+version: 2.0.2
 date-released: '2026-07-20'
 repository-code: 'https://github.com/barryjohnston737/policy-kg-explorer-v2'
 doi: 10.5281/zenodo.21459285

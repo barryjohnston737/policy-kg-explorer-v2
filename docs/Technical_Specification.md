@@ -70,9 +70,10 @@ The current corpus is 191 documents assigned to six policy domains:
 Each document is split into passages of roughly 350 words along its natural structure
 (headings, sections, paragraphs), giving **13,871 segments** in total. The 28 local-authority climate action plans, 5 local biodiversity plans and 4 county development plans are each condensed into a single sampled composite node so that a near-duplicate family does not dominate the view or skew the calibration; Dublin City's plan is retained individually as a named exemplar. The segment, not the
 whole document, is the unit that the language models read; document-level relationships are
-then assembled from the segment fingerprints. The corpus inventory is maintained in a
-mapping spreadsheet (`corpus_mapping.xlsx.csv`); source URLs for every document are listed
-in the [document library](DOCUMENT_LIBRARY.md).
+then assembled from the segment fingerprints. The corpus inventory is maintained in
+[`master_library.csv`](../master_library.csv) — 300 catalogued documents with source URLs,
+publisher, year and text-quality flags — and [`corpus_scope.csv`](../corpus_scope.csv)
+records which of those are in this build, why, and where each one's text came from.
 
 ### What the outputs look like
 
@@ -141,17 +142,18 @@ handling rules apply if the corpus is ever extended with non-public material.
 | `policy_graph_191docs_data.json` | Full machine-readable graph: every node (documents, sections, clusters) and edge with per-model similarity scores |
 | `policy_graph_191docs.graphml` | The same graph in GraphML for import into Gephi, Cytoscape, or Neo4j |
 | `policy_graph_191docs_similarity.csv` | The full 191 × 191 document similarity matrix |
-| `ingested_v2/merged_segments.json` | Every segment with its text, heading, word count, and parent document |
-| `ingested_v2/embeddings_*.npy` | Cached embedding matrices, one per model |
-| `ingested_v2/ingestion_report.json` | Per-document extraction statistics and errors from the most recent ingestion |
+| `corpus_build/final_segments.json` | Every segment with its text, heading, word count, and parent document (committed gzipped) |
+| `corpus_build/emb_*.npy` | Cached embedding matrices, one per model (not committed; regenerable) |
+| `ingestion_report.json` | Per-document extraction statistics and errors, written to the ingestion output directory |
 
 ## 4. How it works — method detail
 
 ### Step 1: Corpus assembly and text extraction
 
-Documents (PDF, TXT, HTML) live in `raw_documents/` and are inventoried in
-`corpus_mapping.xlsx.csv`. Rows marked `NEW` are picked up by the ingestion script
-(`ingest_corpus.py`), which extracts text with pdfplumber (PyPDF2 as fallback). Scanned
+Source documents (PDF, TXT, HTML) are held in a local documents directory — they are not
+redistributed in this repository; `master_library.csv` records where each was obtained.
+They are inventoried in a mapping CSV, and rows marked `NEW` are picked up by the ingestion
+script (`ingest_corpus.py`), which extracts text with pdfplumber (PyPDF2 as fallback). Scanned
 image-only PDFs yield no text and are reported as errors rather than silently skipped. Rows
 are marked `INGESTED` once processed, so re-runs never duplicate work.
 
@@ -262,17 +264,24 @@ use the built-in GPU automatically.
 
 ### 7.2 Adding a new document
 
-1. Place the file in `raw_documents/`.
-2. Add a row to `corpus_mapping.xlsx.csv` with Status `NEW`, a unique Doc ID, a clean title,
-   and a domain. Add its source URL to the [document library](DOCUMENT_LIBRARY.md).
-3. Run the ingestion script, pointing at the existing merged data:
+1. Place the file in your local documents directory.
+2. Add a row to [`master_library.csv`](../master_library.csv) with a unique ID, a clean
+   title, jurisdiction, domain, year and source URL.
+3. Regenerate the scope so the new document is picked up:
 
 ```bash
-python ingest_corpus.py --mapping corpus_mapping.xlsx.csv --docs-dir raw_documents \
-    --output-dir ingested_v3 --existing-segments ingested_v2/merged_segments.json \
-    --existing-emb bge_m3=ingested_v2/embeddings_bge_m3.npy \
-    --existing-emb qwen3=ingested_v2/embeddings_qwen3.npy \
-    --existing-emb minilm=ingested_v2/merged_minilm.npy
+python3 scripts/gen_corpus_scope.py
+```
+
+4. Run the ingestion script against a mapping CSV of the documents to add, pointing at the
+   existing segments so work is not repeated:
+
+```bash
+python3 scripts/ingest_corpus.py --mapping <your_mapping.csv> --docs-dir <your_docs_dir> \
+    --output-dir corpus_build/new --existing-segments corpus_build/final_segments.json \
+    --existing-emb bge_m3=corpus_build/emb_bge_m3.npy \
+    --existing-emb qwen3=corpus_build/emb_qwen3.npy \
+    --existing-emb minilm=corpus_build/emb_minilm.npy
 ```
 
 4. Rebuild the explorer (7.4). Strength bands recalibrate automatically.

@@ -16,7 +16,8 @@ Outputs (in ../corpus_build/):
 import csv
 from pathlib import Path
 
-HERE = Path(__file__).parent
+HERE = Path(__file__).resolve().parent
+REPO = HERE.parent
 OUT = HERE.parent / "corpus_build"
 OUT.mkdir(exist_ok=True)
 (OUT / "downloads").mkdir(exist_ok=True)
@@ -48,7 +49,7 @@ def is_direct(url: str) -> tuple[bool, str]:
 
 
 def main():
-    rows = list(csv.DictReader(open(HERE / "corpus_scope.csv", encoding="utf-8")))
+    rows = list(csv.DictReader(open(REPO / "corpus_scope.csv", encoding="utf-8")))
     fetch, manual = [], []
 
     for r in rows:

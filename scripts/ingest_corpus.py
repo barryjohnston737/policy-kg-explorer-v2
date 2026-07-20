@@ -340,7 +340,7 @@ def main():
                         help="Path to existing all_segments.json (for merging)")
     parser.add_argument("--existing-emb", action="append", default=[],
                         help="Existing embeddings to merge with, as name=path "
-                             "(repeatable), e.g. --existing-emb bge_m3=ingested_v2/embeddings_bge_m3.npy. "
+                             "(repeatable), e.g. --existing-emb bge_m3=corpus_build/emb_bge_m3.npy. "
                              "Names must match EMBED_MODELS.")
     parser.add_argument("--batch-size", type=int, default=16,
                         help="Embedding batch size (reduce if out of memory)")

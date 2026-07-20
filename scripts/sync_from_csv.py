@@ -10,11 +10,12 @@ from pathlib import Path
 
 import yaml
 
-HERE = Path(__file__).parent
+HERE = Path(__file__).resolve().parent
+REPO = HERE.parent
 
 
 def main():
-    rows = list(csv.DictReader(open(HERE / "master_library.csv", encoding="utf-8-sig")))
+    rows = list(csv.DictReader(open(REPO / "master_library.csv", encoding="utf-8-sig")))
 
     docs = {}
     for r in rows:
@@ -46,7 +47,7 @@ def main():
         },
         "documents": docs,
     }
-    with open(HERE / "master_library.yaml", "w", encoding="utf-8") as f:
+    with open(REPO / "master_library.yaml", "w", encoding="utf-8") as f:
         yaml.safe_dump(out, f, sort_keys=False, allow_unicode=True, width=100)
 
     no_year = [r for r in rows if not (r["year"] or "").strip()]
@@ -70,7 +71,7 @@ def main():
     g.append(f"\n## 5. Text-extraction problems ({len(poor)})\n")
     for r in poor: g.append(f"- {r['title']} ({r['kg_text_status']})")
 
-    with open(HERE / "GAP_REVIEW.md", "w", encoding="utf-8") as f:
+    with open(REPO / "GAP_REVIEW.md", "w", encoding="utf-8") as f:
         f.write("\n".join(g) + "\n")
 
     print(f"synced: {len(rows)} docs -> master_library.yaml + GAP_REVIEW.md")

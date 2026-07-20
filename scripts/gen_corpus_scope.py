@@ -17,6 +17,7 @@ Outputs: corpus_scope.csv (one row per master-library doc, include=yes/no + reas
 import csv
 import os
 import re
+import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
@@ -94,7 +95,7 @@ DEDUPE_DROPS = {
 
 
 def main():
-    rows = list(csv.DictReader(open(HERE / "master_library.csv", encoding="utf-8-sig")))
+    rows = list(csv.DictReader(open(REPO / "master_library.csv", encoding="utf-8-sig")))
     ids = {r["id"] for r in rows}
 
     # sanity: only apply dedupe drops whose keep-target exists
@@ -183,10 +184,27 @@ def main():
             "source_url": "https://www.caro.ie/knowledge-hub/local-authority-climate-action-plans-2024-2029" if "CLIMATE" in cid else "",
         })
 
-    with open(HERE / "corpus_scope.csv", "w", newline="", encoding="utf-8") as f:
+    # Guard: without the external text directories, every document that would
+    # have resolved to atlas-text or scraper-file is downgraded to
+    # download-needed. Writing that over the committed corpus_scope.csv would
+    # silently corrupt it, so refuse unless the user is explicit.
+    target = REPO / "corpus_scope.csv"
+    sources_missing = [n for n, p in (("ATLAS_TEXT_DIR", ATLAS_TEXT),
+                                      ("SCRAPING_DIR", SCRAPING)) if not p.exists()]
+    if sources_missing and target.exists() and "--force" not in sys.argv:
+        target = REPO / "corpus_scope.generated.csv"
+        print(f"\nWARNING: {', '.join(sources_missing)} unavailable, so text sources "
+              f"cannot be resolved.\n"
+              f"         Writing to {target.name} instead of overwriting "
+              f"corpus_scope.csv.\n"
+              f"         Set the environment variables, or pass --force to "
+              f"overwrite anyway.")
+
+    with open(target, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(out[0].keys()))
         w.writeheader()
         w.writerows(out)
+    print(f"wrote {target.relative_to(REPO)}")
 
     inc = [o for o in out if o["include"] == "yes"]
     from collections import Counter

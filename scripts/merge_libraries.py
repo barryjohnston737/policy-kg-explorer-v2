@@ -31,9 +31,10 @@ from pathlib import Path
 
 import yaml
 
-HERE = Path(__file__).parent
-ATLAS = HERE / "sources" / "atlas_manifest_snapshot.yaml"
-KG = HERE / "sources" / "kg_document_library_snapshot.csv"
+HERE = Path(__file__).resolve().parent
+REPO = HERE.parent
+ATLAS = REPO / "sources" / "atlas_manifest_snapshot.yaml"
+KG = REPO / "sources" / "kg_document_library_snapshot.csv"
 
 STOP = {"the", "of", "for", "and", "a", "an", "to", "in", "on", "ireland",
         "irelands", "irish", "en", "e"}
@@ -176,10 +177,10 @@ def main():
         },
         "documents": master,
     }
-    with open(HERE / "master_library.yaml", "w", encoding="utf-8") as f:
+    with open(REPO / "master_library.yaml", "w", encoding="utf-8") as f:
         yaml.safe_dump(out, f, sort_keys=False, allow_unicode=True, width=100)
 
-    with open(HERE / "master_library.csv", "w", newline="", encoding="utf-8") as f:
+    with open(REPO / "master_library.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["id", "title", "jurisdiction", "domain", "year", "legal_basis",
                     "status", "source_url", "source_org", "in_atlas", "atlas_download",
@@ -243,7 +244,7 @@ def main():
     for base, ids in sorted(superseded_candidates.items()):
         g.append(f"- {', '.join(f'`{i}`' for i in ids)} — “{base}”")
 
-    with open(HERE / "GAP_REVIEW.md", "w", encoding="utf-8") as f:
+    with open(REPO / "GAP_REVIEW.md", "w", encoding="utf-8") as f:
         f.write("\n".join(g) + "\n")
 
     # summary

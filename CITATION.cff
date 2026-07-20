@@ -37,3 +37,12 @@ license: MIT
 version: 2.0.0
 date-released: '2026-07-17'
 repository-code: 'https://github.com/barryjohnston737/policy-kg-explorer-v2'
+doi: 10.5281/zenodo.21459285
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.21459285
+    description: >-
+      Concept DOI — always resolves to the latest version of this software.
+  - type: doi
+    value: 10.5281/zenodo.21459286
+    description: Version DOI for release v2.0.0 specifically.

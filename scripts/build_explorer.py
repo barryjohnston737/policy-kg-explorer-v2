@@ -1,23 +1,37 @@
 #!/usr/bin/env python3
 """
-policy_kg_explorer.py — Build a seed knowledge graph from policy segments
-and generate an interactive HTML explorer.
+build_explorer.py — Build the document similarity graph from embedded policy
+segments and generate the standalone interactive HTML explorer.
+
+Segments are mean-pooled to document level per embedding model; each model
+contributes its own pairwise cosine-similarity matrix and those matrices are
+averaged (models of differing dimensionality are never vector-averaged).
+Strength bands are calibrated from the resulting distribution on every run.
 
 Usage:
-    python policy_kg_explorer.py \
-        --segments all_segments.json \
-        --bge embeddings_bge.npy \
-        --minilm embeddings_minilm.npy \
-        --output policy_graph.html \
-        --doc-threshold 0.60 \
-        --seg-threshold 0.78 \
-        --top-k-segments 300
+    python build_explorer.py \
+        --segments corpus_build/final_segments.json \
+        --emb bge_m3=corpus_build/emb_bge_m3.npy \
+        --emb qwen3=corpus_build/emb_qwen3.npy \
+        --emb minilm=corpus_build/emb_minilm.npy \
+        --doc-threshold 0.55 \
+        --top-k-segments 600 \
+        --output output/policy_graph.html
 
-Outputs:
-    - policy_graph.html        Interactive D3 force-directed graph (open in browser)
-    - seed_graph.json          Raw graph data (nodes + edges)
-    - doc_similarity_matrix.csv  Full 22x22 document similarity matrix
-    - seed_graph.graphml       GraphML for Gephi/Neo4j import
+`--emb NAME=PATH` is repeatable and takes any number of models. The legacy
+`--bge` / `--minilm` flags are retained as aliases for older invocations.
+
+Options:
+    --datum-options IDs   Comma-separated document IDs offered in the
+                          reference-datum selector.
+    --skip-exports        Write only the HTML, skipping the JSON / CSV /
+                          GraphML side outputs.
+
+Outputs (unless --skip-exports):
+    <output>.html              Standalone explorer: 2D network, 3D orbit, heatmap
+    seed_graph.json            Raw graph data (nodes + edges)
+    doc_similarity_matrix.csv  Full document-by-document similarity matrix
+    seed_graph.graphml         GraphML for Gephi / Neo4j import
 """
 
 import argparse

@@ -42,7 +42,7 @@ Licensed under the [MIT License](LICENSE).
 
 **Software:**
 Johnston, B. & Moran, J. (2026). *Policy Knowledge Graph Explorer: a multi-model semantic
-knowledge graph for exploring environmental governance corpora* (v2.0.0). Zenodo.
+knowledge graph for exploring environmental governance corpora* (v2.0.1). Zenodo.
 https://doi.org/10.5281/zenodo.21459285
 
 **Policy brief:**
@@ -78,33 +78,45 @@ is kept individually as a named exemplar.
 
 | Path | Contents |
 |---|---|
-| `scripts/policy_kg_explorer_2_3d_new_3.py` | Graph builder + HTML explorer generator |
-| `scripts/ingest_corpus.py`, `embed_corpus_3models.py` | Extraction, segmentation, embedding |
-| `scripts/assemble_corpus.py` | Builds the final corpus from the unified library scope |
-| `scripts/gen_corpus_scope.py`, `merge_libraries.py`, `sync_from_csv.py` | Library tooling |
+| `scripts/build_explorer.py` | Graph builder + HTML explorer generator |
+| `scripts/build_final.sh` | One-command rebuild with this corpus's settings |
+| `scripts/embed_final.py` | Tri-model embedding of the assembled segments |
+| `scripts/ingest_corpus.py` | Text extraction and ~350-word segmentation |
+| `scripts/scan_corpus.py` | Corpus inventory and text-quality checks |
+| `scripts/gen_corpus_scope.py` | Derives `corpus_scope.csv` from the master library |
+| `scripts/merge_libraries.py`, `sync_from_csv.py` | Library assembly and round-tripping |
+| `scripts/gen_download_batch.py` | Builds fetch lists for documents still needing text |
 | `master_library.csv` | Unified document library (300 documents, provenance, quality flags) |
 | `corpus_scope.csv` | Which library documents are in this build, and why |
 | `corpus_build/final_segments.json.gz` | The 13,871 assembled segments (gzipped, ~10 MB) |
 | `output/` / `docs/index.html` | Built explorer HTML (also served via GitHub Pages / Vercel) |
 | `docs/` | Technical specification, policy brief, and screenshots (Markdown + web; formatted PDFs live on Zenodo) |
 
-Embeddings (`.npy`) are large and regenerable; they are not committed.
-
-The segment corpus is stored gzipped. Decompress before rebuilding:
-
-```bash
-gunzip -k corpus_build/final_segments.json.gz
-```
+Embeddings (`.npy`) are large and regenerable; they are not committed. The segment
+corpus is committed gzipped — the scripts decompress it automatically on first use.
 
 ## Rebuilding
 
+From a fresh clone, two commands:
+
 ```bash
-python -m venv .venv && .venv/bin/pip install sentence-transformers pdfplumber numpy networkx
-# 1. embed the assembled segments (tri-model; ~1–2 h first run)
+python3 -m venv .venv && .venv/bin/pip install sentence-transformers numpy networkx
+
+# 1. embed the segments — tri-model, ~1–2 h and ~3.5 GB of model weights on
+#    the first run; completed models are skipped if you need to restart
 .venv/bin/python scripts/embed_final.py
-# 2. build the explorer
-bash scripts/build_final.sh
+
+# 2. build the explorer into output/ and refresh docs/index.html
+PYTHON=.venv/bin/python bash scripts/build_final.sh
 ```
+
+`PYTHON` defaults to `python3` if unset. Both scripts resolve paths relative to
+the repository, so neither needs editing.
+
+Rebuilding the corpus from source documents (rather than the committed segments)
+additionally needs `pdfplumber`, the source PDFs, and the external text
+directories referenced by `gen_corpus_scope.py` — see `corpus_scope.csv` for
+where each document's text came from.
 
 ## Method in one paragraph
 

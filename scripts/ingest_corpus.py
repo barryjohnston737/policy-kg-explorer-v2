@@ -517,7 +517,7 @@ def main():
 
     if args.existing_segments:
         print(f"\nTo rebuild the graph with merged data, run:")
-        print(f"  python policy_kg_explorer_2_3d_new_3.py \\")
+        print(f"  python scripts/build_explorer.py \\")
         print(f"    --segments {output_dir}/merged_segments.json \\")
         emb_flags = " ".join(f"--emb {n}={output_dir}/merged_{n}.npy" for n in EMBED_MODELS)
         print(f"    {emb_flags} \\")

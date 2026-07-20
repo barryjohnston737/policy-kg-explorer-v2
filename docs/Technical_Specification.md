@@ -279,18 +279,34 @@ python ingest_corpus.py --mapping corpus_mapping.xlsx.csv --docs-dir raw_documen
 
 ### 7.3 Re-embedding the whole corpus
 
-If the model stack changes, `embed_corpus_3models.py` re-embeds every segment with the
-configured models, skipping any model whose cache is already complete.
+If the model stack changes, `scripts/embed_final.py` re-embeds every segment with the
+configured models, skipping any model whose output file is already complete. It reads
+`corpus_build/final_segments.json` (decompressing the shipped `.gz` if needed) and writes
+`corpus_build/emb_<model>.npy`.
+
+```bash
+python3 scripts/embed_final.py
+```
 
 ### 7.4 Building the explorer
 
+The one-command path, which uses this corpus's settings and refreshes `docs/index.html`:
+
 ```bash
-python policy_kg_explorer_2_3d_new_3.py \
-    --segments ingested_v2/merged_segments.json \
-    --emb bge_m3=ingested_v2/embeddings_bge_m3.npy \
-    --emb qwen3=ingested_v2/embeddings_qwen3.npy \
-    --emb minilm=ingested_v2/merged_minilm.npy \
-    --output policy_graph_191docs.html
+bash scripts/build_final.sh
+```
+
+Or invoke the builder directly to vary the parameters:
+
+```bash
+python3 scripts/build_explorer.py \
+    --segments corpus_build/final_segments.json \
+    --emb bge_m3=corpus_build/emb_bge_m3.npy \
+    --emb qwen3=corpus_build/emb_qwen3.npy \
+    --emb minilm=corpus_build/emb_minilm.npy \
+    --doc-threshold 0.55 \
+    --top-k-segments 600 \
+    --output output/policy_graph_191docs.html
 ```
 
 | Flag | Default | Description |

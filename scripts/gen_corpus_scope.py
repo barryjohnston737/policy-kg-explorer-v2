@@ -15,22 +15,30 @@ Outputs: corpus_scope.csv (one row per master-library doc, include=yes/no + reas
 """
 
 import csv
+import os
 import re
 from pathlib import Path
 
-HERE = Path(__file__).parent
-ATLAS_TEXT = Path.home() / "Desktop" / "PolicyKit_Atlas_Backend" / "corpus" / "text"
-SCRAPING = Path.home() / "Desktop" / "scraping_dir"
+HERE = Path(__file__).resolve().parent
+REPO = HERE.parent
 
-# Sandbox-friendly fallbacks (paths differ between host tools and the VM shell)
-if not ATLAS_TEXT.exists():
-    for alt in [Path("/sessions/charming-wonderful-volta/mnt/PolicyKit_Atlas_Backend/corpus/text")]:
-        if alt.exists():
-            ATLAS_TEXT = alt
-if not SCRAPING.exists():
-    for alt in [Path("/sessions/charming-wonderful-volta/mnt/scraping_dir")]:
-        if alt.exists():
-            SCRAPING = alt
+# Optional external text sources, used to decide where each document's text will
+# come from. Neither is required to run this script: if a directory is absent,
+# documents that would have drawn on it are simply marked download-needed.
+# Override either with an environment variable.
+#
+#   ATLAS_TEXT_DIR=/path/to/atlas/corpus/text  SCRAPING_DIR=/path/to/scraped  \
+#       python3 scripts/gen_corpus_scope.py
+#
+ATLAS_TEXT = Path(os.environ.get(
+    "ATLAS_TEXT_DIR", Path.home() / "Desktop" / "PolicyKit_Atlas_Backend" / "corpus" / "text"))
+SCRAPING = Path(os.environ.get(
+    "SCRAPING_DIR", Path.home() / "Desktop" / "scraping_dir"))
+
+for label, p in (("ATLAS_TEXT_DIR", ATLAS_TEXT), ("SCRAPING_DIR", SCRAPING)):
+    if not p.exists():
+        print(f"note: {label} not found at {p} — "
+              f"documents relying on it will be marked download-needed")
 
 REPRESENTATIVE_LO = "LO_DUBLIN_CITY_CLIMATE"
 

@@ -34,8 +34,8 @@ keywords:
   - information visualisation
   - natural language processing
 license: MIT
-version: 2.0.0
-date-released: '2026-07-17'
+version: 2.0.1
+date-released: '2026-07-20'
 repository-code: 'https://github.com/barryjohnston737/policy-kg-explorer-v2'
 doi: 10.5281/zenodo.21459285
 identifiers:

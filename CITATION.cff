@@ -47,7 +47,10 @@ identifiers:
     value: 10.5281/zenodo.21459286
     description: Version DOI for release v2.0.0 specifically.
   - type: doi
-    value: 10.5281/zenodo.21459386
+    value: 10.5281/zenodo.21459385
     description: >-
-      Companion policy brief, "Mapping the Policy Web" — plain-language summary
-      for policy audiences.
+      Companion policy brief, "Mapping the Policy Web" — concept DOI, always
+      resolves to its latest version.
+  - type: doi
+    value: 10.5281/zenodo.21459386
+    description: Version DOI for the policy brief as first deposited.

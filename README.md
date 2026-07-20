@@ -48,7 +48,7 @@ https://doi.org/10.5281/zenodo.21459285
 **Policy brief:**
 Johnston, B. & Moran, J. (2026). *Mapping the Policy Web: a semantic knowledge-graph tool for
 navigating Ireland's environmental governance*. Zenodo.
-https://doi.org/10.5281/zenodo.21459386
+https://doi.org/10.5281/zenodo.21459385
 
 Machine-readable metadata is in [`CITATION.cff`](CITATION.cff).
 
